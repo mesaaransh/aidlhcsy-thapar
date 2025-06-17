@@ -1,0 +1,46 @@
+.home{
+    position: relative;
+    display: flex;
+}
+
+.homeContent{
+    width: 70%;
+}
+
+.floater{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.impDates{
+    top: 50px;
+    position: sticky;
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid black;
+}
+
+.impDates > h3{
+
+    background-color: var(--primary);
+    margin-top: 0px;
+
+    font-weight: 600;
+    padding: 10px;
+    color: white;
+}
+
+.impDates > ul{
+    padding: 20px 30px; 
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.impDates span{
+    font-weight: bold;
+    color: var(--primary);
+}

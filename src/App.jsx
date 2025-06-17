@@ -1,0 +1,28 @@
+import './App.css'
+import Header from './Components/Header/Header'
+import Home from './Pages/Home'
+import Footer from './Components/Footer/Footer'
+import OrgCom from './Pages/OrgCom/OrgCom'
+import Venue from './Pages/Venue/Venue'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+
+function App() {
+
+  return (
+    <>
+        <Router>
+              <Header />
+          <Routes>
+            <Route path='/'>
+              <Route index element={<Home />} />
+              <Route path="venue" element={<Venue />} />
+              <Route path="committee" element={<OrgCom />} />
+            </Route>
+          </Routes>
+              <Footer />
+        </Router>
+    </>
+  )
+}
+
+export default App

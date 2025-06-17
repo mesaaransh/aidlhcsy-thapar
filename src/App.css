@@ -1,0 +1,93 @@
+*{
+  padding: 0px;
+  margin: 0px;
+
+  box-sizing: border-box;
+
+  font-family: 'Inter', Courier, monospace;
+}
+
+
+html{
+  font-size: 12pt;
+}
+
+@media screen and (max-width: 1366px){
+
+  html{
+    font-size: 10pt;
+  }
+
+}
+
+:root{
+  --primary: #640000;
+  --lprimary: #fce5e5;
+  --lbg: #e6e6e6;
+  --lbg2:rgb(231, 216, 203);
+}
+
+body{
+  background-color: var(--lbg);
+}
+
+.page{
+  margin: 80px 5vw;
+  text-align: justify;
+}
+
+.page h1{
+  font-family: 'Figtree', Courier, monospace;
+}
+
+.page h3{
+  margin-top: 1lh;
+  font-family: 'Figtree', Courier, monospace;
+}
+
+.page p{
+  margin-top: 1lh;
+  font-family: 'Inter', Courier, monospace;
+}
+
+button{
+  padding: 13px 30px;
+  height: fit-content;
+  width: fit-content;
+
+  border: 0px solid;
+  border-radius: 10px;
+  background-color: var(--primary);
+
+  color: var(--lbg);
+  font-family: 'Lato', Courier, monospace;
+  font-size: 1.2rem;
+
+  margin-top: 30px;
+}
+
+
+h1{
+  font-size: 3rem;
+}
+
+h2{
+  font-size: 2rem;
+}
+
+h3{
+  font-size: 1.5rem;
+}
+
+h4{
+  font-size: 1rem;
+}
+
+p, ul{
+  font-size: 1rem;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
