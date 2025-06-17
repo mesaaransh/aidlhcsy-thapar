@@ -44,3 +44,37 @@
     font-weight: bold;
     color: var(--primary);
 }
+
+.pastConferences{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 10px;
+}
+
+.conference{
+
+    flex-grow: 1;
+    flex-basis: 30%;
+    border: 1px solid black;
+
+    padding: 30px 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    transition-duration: 100ms;
+    cursor: pointer;
+
+}
+
+.conference p{
+    margin-top: 0px;
+}
+
+.conference:hover{
+    background-color: var(--primary);
+    color: var(--lbg);
+}

@@ -1,3 +1,8 @@
+.members{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .member{
     display: flex;
     align-items: center;
@@ -5,6 +10,10 @@
     margin-top: 20px;
 
     border: 1px solid rgb(155, 155, 155);
+
+    flex-grow: 1;
+    width: 50%;
+    min-width: fit-content;
 }
 
 .member p, .member h2{
