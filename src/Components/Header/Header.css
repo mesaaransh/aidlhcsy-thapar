@@ -3,13 +3,19 @@
     color: white;
 }
 
+.headerTopImage{
+    object-fit: cover;
+    object-position: center;
+}
+
 .headTop{
-    background-image: url('https://lms.thapar.edu/moodle/pluginfile.php/1/theme_moove/loginbgimg/1659956381/1_Thapar_Student_Residencies.jpg');
-    background-size: cover;
-    background-position: center;
+    position: relative;
     width: 100%;
     min-height: 100vh;
+}
 
+.headerTopContent{
+    height: 100vh;
     text-align: center;
     text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
     
@@ -23,6 +29,7 @@
 .headTop::after{
     content: '';
     position: absolute;
+    top: 0;
     height: 100%;
     width: 100%;
 

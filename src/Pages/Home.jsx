@@ -62,7 +62,13 @@ export default function Home() {
                 </div>
 
 
-                <h2>About TIET</h2>
+                <h2>Our Sponsers</h2>
+
+                <div className="sponsorGrid">
+                    <img src="./5.jpeg" alt="" />
+                    <img src="./5.jpeg" alt="" />
+                    <img src="./5.jpeg" alt="" />
+                </div>
 
             </div>
 

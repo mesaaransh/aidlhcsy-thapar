@@ -50,7 +50,7 @@ export default function Venue() {
             </div>
 
             <h3>Hello</h3>
-            
+
             <div class="VenueGrid">
 
                 <div class="grideElement gridTextElement div7">
