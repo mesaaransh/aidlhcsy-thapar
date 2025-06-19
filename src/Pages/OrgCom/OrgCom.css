@@ -4,6 +4,7 @@
 }
 
 .member{
+    position: relative;
     display: flex;
     align-items: center;
 
@@ -45,4 +46,26 @@
 
 .memberInfo h2{
     margin-bottom: 0.3lh;
+}
+
+.directorNote h4{
+    color: rgb(70, 70, 70);
+    margin-bottom: 0.5lh;
+}
+
+.directorNote .memberInfo{
+    width: 40%;
+}
+
+.directorNote h2{
+    margin-bottom: 0px;
+}
+
+
+.tiet{
+    position: absolute;
+    height: 70%;
+
+    right: 0;
+    bottom: 0;
 }

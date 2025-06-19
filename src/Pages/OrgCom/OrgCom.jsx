@@ -4,6 +4,23 @@ export default function OrgCom() {
   return (
     <div className='page orgCom'>
         <h2>Organizing Committee</h2>
+
+        <div className="members">
+            <div className="member directorNote">
+                <img src="./ThaparVector.png" className='tiet' alt="" />
+                <div className="memberImage">
+                    <img src="./VinayKumar.jpeg" alt="" />
+                </div>
+                <div className='memberInfo'>
+                    <h2>Dr. Padmakumar Nair</h2>
+                    <h4>Director, Thapar Institute of Engineering & Technology</h4>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, id numquam consequatur adipisci cum dolorum rem tenetur provident nisi sit consectetur, eius laborum voluptatum ipsa tempora ex! Quae, quia asperiores!</p>
+                </div>
+            </div>
+        </div>
+
+
         <h3>Conference Chairs</h3>
         <div className="members">
 

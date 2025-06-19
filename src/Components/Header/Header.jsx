@@ -36,6 +36,7 @@ export default function Header() {
                 <ul>
                     <li> <Link to='/'>Home</Link> </li>
                     <li>Author's Area</li>
+                    <li><Link to='/keynotes'>Keynotes</Link></li>
                     <li><Link to='/committee'>Organizing Committee</Link></li>
                     <li>Registration</li>
                     <li><Link to='venue'>Venue</Link></li>

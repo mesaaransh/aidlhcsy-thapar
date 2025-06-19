@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import "./Home.css"
-import { faCalendar, faCalendarDays } from "@fortawesome/free-solid-svg-icons"
+import { faCalendar, faCalendarDays, faLeaf } from "@fortawesome/free-solid-svg-icons"
+import { faInstagram } from "@fortawesome/free-brands-svg-icons"
 
 export default function Home() {
     return (
@@ -18,12 +19,12 @@ export default function Home() {
 
                 <h3>Conference Themes</h3>
                 <br />
-                <ul>
-                    <li>Human-Computer Interaction</li>
-                    <li>AI in Education, Health, Governance, and Social Justice</li>
-                    <li>Explainable and Sustainable AI</li>
-                    <li>Deep Learning for NLP and Image Processing</li>
-                    <li>Generative AI, Creative Applications, and Public Policy</li>
+                <ul className="themes">
+                    <li>Human-Computer Interaction <span><FontAwesomeIcon icon={faLeaf} /></span> </li>
+                    <li>AI in Education, Health, Governance, and Social Justice <span><FontAwesomeIcon icon={faLeaf} /></span></li>
+                    <li>Explainable and Sustainable AI <span><FontAwesomeIcon icon={faLeaf} /></span></li>
+                    <li>Deep Learning for NLP and Image Processing <span><FontAwesomeIcon icon={faLeaf} /></span></li>
+                    <li>Generative AI, Creative Applications, and Public Policy <span><FontAwesomeIcon icon={faLeaf} /></span></li>
                 </ul>
 
                 <h2>Past Conferences</h2>

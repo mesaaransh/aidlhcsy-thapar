@@ -25,6 +25,7 @@ html{
   --primary2: #960000;
   --lbg: #e6e6e6;
   --lbg2:rgb(231, 216, 203);
+  --sec: rgb(206, 206, 206);
 }
 
 body{
