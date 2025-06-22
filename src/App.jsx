@@ -17,7 +17,9 @@ function App() {
             <Route path='/'>
               <Route index element={<Home />} />
               <Route path="venue" element={<Venue />} />
-              <Route path="committee" element={<OrgCom />} />
+              <Route path="OrgCommittee" element={<OrgCom />} />
+              <Route path="SupCommittee" element={<OrgCom />} />
+              <Route path="tpc" element={<OrgCom />} />
               <Route path="keynotes" element={<Keynotes />} />
             </Route>
           </Routes>
