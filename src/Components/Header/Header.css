@@ -111,7 +111,6 @@ menu > ul > li:hover {
   position: absolute;
   top: 100%;
   left: 0;
-  display: none;
   background-color: white;
   color: black;
   list-style: none;
@@ -119,6 +118,10 @@ menu > ul > li:hover {
   min-width: 200px;
   z-index: 10;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  z-index: -100;
+  opacity: 0;
+  transition-duration: 100ms;
 }
 
 .dropdown-menu li {
@@ -126,7 +129,8 @@ menu > ul > li:hover {
 }
 
 .dropdown:hover .dropdown-menu {
-  display: block;
+  z-index: 100;
+  opacity: 1;
 }
 
 .dropdown-menu li a {

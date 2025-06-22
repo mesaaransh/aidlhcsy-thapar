@@ -6,6 +6,7 @@ import OrgCom from './Pages/OrgCom/OrgCom'
 import Venue from './Pages/Venue/Venue'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Keynotes from './Pages/Keynotes/Keynotes'
+import SupCom from './Pages/OrgCom/SupCom'
 
 function App() {
 
@@ -18,7 +19,7 @@ function App() {
               <Route index element={<Home />} />
               <Route path="venue" element={<Venue />} />
               <Route path="OrgCommittee" element={<OrgCom />} />
-              <Route path="SupCommittee" element={<OrgCom />} />
+              <Route path="SupCommittee" element={<SupCom />} />
               <Route path="tpc" element={<OrgCom />} />
               <Route path="keynotes" element={<Keynotes />} />
             </Route>
