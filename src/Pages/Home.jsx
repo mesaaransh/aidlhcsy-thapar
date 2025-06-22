@@ -86,6 +86,14 @@ export default function Home() {
                         <li>Conference Dates <br /> <span>8-10 January 2026</span></li>
                     </ul>
                 </div>
+
+                <div className="impDates">
+                    <h3>LATEST NEWS</h3>
+
+                    <ul>
+                        <li><span>30 August 2025</span> <br /> Themes of the conference revealed </li>
+                    </ul>
+                </div>
             </div>
 
 
