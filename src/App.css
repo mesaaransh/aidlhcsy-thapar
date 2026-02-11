@@ -32,6 +32,10 @@ body{
   background-color: var(--lbg);
 }
 
+.page > * > p{
+  line-height: 1.5lh;
+}
+
 .page{
   margin: 80px 5vw;
   text-align: justify;

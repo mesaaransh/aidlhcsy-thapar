@@ -1,6 +1,8 @@
 import "./Header.css"
 import { Link } from "react-router-dom"
 import HeaderSlideshow from "./HeaderSlideShow";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCaretDown } from "@fortawesome/free-solid-svg-icons";
 
 export default function Header() {
   return (
@@ -10,11 +12,11 @@ export default function Header() {
         <menu>
           <ul>
             <li><Link to='/'>Home</Link></li>
-            <li>Author's Area</li>
+            <li><Link to={'/authors'}>Author's Area</Link></li>
             <li><Link to='/keynotes'>Keynotes</Link></li>
 
             <li className="dropdown">
-              <span>Organizing Committee ▾</span>
+              <span>Organizing Committee <FontAwesomeIcon icon={faCaretDown} /></span>
               <ul className="dropdown-menu">
                 <li><Link to="./OrgCommittee">Organizing Committee</Link></li>
                 <li><Link to="./SupCommittee">Supporting Committee</Link></li>
@@ -24,7 +26,7 @@ export default function Header() {
 
             <li>Registration</li>
             <li><Link to='/venue'>Venue</Link></li>
-            <li>Contact</li>
+            {/* <li>Contact</li> */}
           </ul>
         </menu>
       </div>

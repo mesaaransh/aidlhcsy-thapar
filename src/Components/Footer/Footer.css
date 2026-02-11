@@ -62,3 +62,15 @@ div.seperator{
 .footerBottom div.col:nth-of-type(2){
     text-align: right;
 }
+
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    font-size: 1.5rem;
+}
+
+.icons *{
+    cursor: pointer;
+}

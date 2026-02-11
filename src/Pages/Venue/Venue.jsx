@@ -33,7 +33,7 @@ export default function Venue() {
                         </p>
                         <div style={{ display: 'flex', gap: '20px' }}>
                             <a href="https://thapar.edu/" target="_blank"><button className="dark">Visit Website <FontAwesomeIcon icon={faArrowUpRightFromSquare} /> </button></a>
-                            <a ><button className="dark">Photo Gallery <FontAwesomeIcon icon={faCameraRetro} /> </button></a>
+                            {/* <a ><button className="dark">Photo Gallery <FontAwesomeIcon icon={faCameraRetro} /> </button></a> */}
                         </div>
                     </div>
                 </div>
@@ -71,7 +71,7 @@ export default function Venue() {
                 <li><strong>By Train:</strong> Patiala is well-connected to Delhi via direct trains like Shatabdi and Express services. The journey takes around 5–6 hours.</li>
                 <li><strong>By Road:</strong> You can drive or hire a cab via NH44 and NH7. The drive spans about 250 km and takes approximately 4.5-5.5 hours.</li>
                 <li><strong>By Bus:</strong> Regular Volvo and deluxe buses run from ISBT Kashmere Gate to Patiala.</li>
-                <li><strong>By Air:</strong> The nearest airport is in Chandigarh (70 km away); from there, taxis or buses can take you to Patiala in under 2 hours.</li>
+                <li><strong>By Air:</strong> The nearest airport is in IXC Chandigarh (70 km away); from there, taxis or buses can take you to Patiala in under 2 hours.</li>
             </ul>
 
 

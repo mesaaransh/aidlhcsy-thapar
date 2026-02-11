@@ -52,3 +52,8 @@
 .headerTopContent h1{
   font-size: 4rem;
 }
+
+.headerTopContent h3{
+  margin-top: 20px;
+}
+

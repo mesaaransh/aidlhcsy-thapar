@@ -1,9 +1,12 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import CountdownTimer from "./CountdownTimer"
 import "./Footer.css"
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faFacebookF, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
 
-  const targetDate = "2026-01-07T23:59:59";
+  const targetDate = "2027-01-17T23:59:59";
 
   return (
     <div className="footer">
@@ -15,12 +18,11 @@ export default function Footer() {
         <div className="footerBottom">
 
             <div className="col">
-              <h2>Contacts: </h2>
-              <br />
-              <p>Prof. John Doe</p>
-              <p>Department of Electronics Engineering</p>
-              <p>Thapar Institute of Engineering and Technology</p>
-              <p>Patiala, Punjab, India</p>
+              <div className="icons">
+                <FontAwesomeIcon icon={faEnvelope}/>
+                <FontAwesomeIcon icon={faInstagram}/>
+                <FontAwesomeIcon icon={faFacebookF}/>
+              </div>
             </div>
 
             <div className="col">

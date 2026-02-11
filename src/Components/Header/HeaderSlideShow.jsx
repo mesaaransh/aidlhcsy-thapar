@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './HeaderSlideshow.css'; // Custom styles here
 
+import dates from "../../info/Committee"
+
 const images = [
     './header/1.jpg',
     './header/2.jpg',
@@ -35,11 +37,11 @@ const HeaderSlideshow = () => {
                     Artificial Intelligence and Deep Learning Methods for Human-Centric Systems
                 </h3>
                 <div className="dtv">
-                    <h3>8–10 January 2026 | TIET, Patiala, India</h3>
+                    <h3>{dates.ConferenceDates} | TIET, Patiala, India</h3>
                 </div>
                 <div className="buttonGroup">
-                    <button className="dark">About Us</button>
-                    <button className="light">Important Dates</button>
+                    <a href='#home'><button className="dark">About Us</button></a>
+                    <a href="#dates"><button className="light">Important Dates</button></a>
                 </div>
             </div>
         </div>

@@ -1,0 +1,48 @@
+.authors{
+    position: relative;
+    display: flex;
+}
+
+.guides{
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 10px;
+}
+
+.guides li{
+    background-color: var(--sec);
+    padding: 15px 10px;
+
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    flex-basis: 45%;
+    flex-grow: 1;
+
+}
+
+.guides li span{
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 0.2lh;
+}
+
+.guides li i{
+    color: #727272;
+}
+
+.feeTable{
+    width: 100%;
+    border-collapse: collapse;
+
+    border: 1px solid #242424;
+
+    margin-top: 1lh;
+}
+
+.feeTable td, .feeTable th{
+    padding: 20px 10px;
+}
