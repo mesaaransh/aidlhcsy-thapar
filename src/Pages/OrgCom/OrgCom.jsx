@@ -1,35 +1,33 @@
 import './OrgCom.css';
-
-import committeeSections from "./Committee"
+import committeeData from "../../info/Committees"
+import Section from '../../Components/Common/Section';
+import MemberCard from '../../Components/Common/MemberCard';
+import PageHero from '../../Components/Common/PageHero';
+import SponsorsBar from '../../Components/Common/SponsorsBar';
 
 export default function OrgCom() {
-
   return (
-    <div className='page orgCom'>
-
-      {committeeSections.map((section, i) => (
-
-        <div key={i} className="">
-          <h3>{section.title}</h3>
-
-          <div className="members">
+    <div className='orgCom-page'>
+      <PageHero
+        title="Organizing Committee"
+        subtitle="Meet the Team Behind AIDL-HCSY 2027"
+        backgroundImage="/header/3.jpg"
+      />
+      <div className='page orgCom'>
+        {committeeData.organising.map((section, i) => (
+          <Section key={i} title={section.title} variant="committee-grid">
             {section.members.map((member, j) => (
-              <div className="member" key={j}>
-                {/* <div className="memberImage">
-                  <img src={member.img} alt={member.name} />
-                </div> */}
-                <div className='memberInfo'>
-                  <h2>{member.name}</h2>
-                  <p>{member.position}</p>
-                </div>
-              </div>
+              <MemberCard
+                key={j}
+                variant="simple"
+                name={member.name}
+                position={member.position}
+              />
             ))}
-          </div>
-
-        </div>
-
-      ))}
-
+          </Section>
+        ))}
+      </div>
+      <SponsorsBar />
     </div>
   );
 }

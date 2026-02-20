@@ -1,138 +1,280 @@
-.home{
+/* ===== Home Page ===== */
+
+/* Hero Section */
+.home-page {
+    width: 100%;
+}
+
+.homeHero {
     position: relative;
-    display: flex;
-}
-
-.homeContent{
-    width: 70%;
-}
-
-.floater{
-    width: 30%;
-    height: fit-content;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    gap: 40px;
-
-    top: 50px;
-    position: sticky;
-
-    padding: 0px 4vw;
-
-}
-
-.impDates{
     width: 100%;
-    height: fit-content;
-    border: 1px solid black;
 }
 
-.impDates > h3{
-
-    background-color: var(--primary);
-    margin-top: 0px;
-
-    font-weight: 600;
-    padding: 10px;
+.scrollIndicator {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
     color: white;
+    font-size: 2rem;
+    animation: bounceDown 2s infinite;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+    text-decoration: none;
 }
 
-.impDates > ul{
-    padding: 20px 30px; 
+.scrollIndicator:hover {
+    opacity: 1;
+}
+
+@keyframes bounceDown {
+    0%, 20%, 50%, 80%, 100% { transform: translateX(-50%) translateY(0); }
+    40% { transform: translateX(-50%) translateY(-15px); }
+    60% { transform: translateX(-50%) translateY(-7px); }
+}
+
+/* Main Layout with Sidebar */
+.homeLayout {
+    display: grid;
+    grid-template-columns: 1fr 350px;
+    gap: 40px;
+    max-width: 1400px;
+    margin: 0 auto;
+    align-items: start;
+}
+
+/* Content Column */
+.homeContent {
+    min-width: 0; /* Prevents grid overflow */
+}
+
+/* Conference Themes Grid */
+.themes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 25px;
+    padding-top: 20px;
+}
+
+.themes li {
+    background: var(--bg-surface);
+    padding: 30px;
+    border-radius: 16px;
+    list-style: none;
     display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.impDates span{
-    font-weight: bold;
-    color: var(--primary);
-}
-
-.impDates li{
-    justify-content: left;
-}
-
-.pastConferences{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-
-    gap: 10px;
-}
-
-.conference{
-
-    flex-grow: 1;
-    flex-basis: 30%;
-    border: 1px solid black;
-
-    min-width: 200px;
-
-    padding: 30px 0px;
-
-    display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
     align-items: center;
-
-    transition-duration: 120ms;
-    cursor: pointer;
-
+    text-align: center;
+    gap: 20px;
+    box-shadow: var(--shadow-sm);
+    border: 1px solid var(--border-light);
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    font-weight: 600;
+    color: var(--text-primary);
+    line-height: 1.4;
+    height: 100%;
+    min-height: 200px;
 }
 
-.conference p{
-    margin-top: 0px;
+.themes li:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--primary-light);
 }
 
-.conference:hover{
-    background-color: var(--primary);
-    color: var(--lbg);
+.themes li span {
+    font-size: 3rem;
+    color: var(--primary);
+    background: var(--bg-surface-2);
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+    flex-shrink: 0;
 }
 
-.sponsorGrid{
+.themes li:hover span {
+    background: var(--primary);
+    color: white;
+    transform: scale(1.1) rotate(5deg);
+}
+
+/* ===== Keynote Speakers (Full Bio Version) ===== */
+.keynotesFull {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 1rem;
+}
+
+.keynotesFull .member-card.keynote {
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+}
+
+.speakerBio {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: var(--text-secondary);
+    margin-top: 10px;
+}
+
+.speakerdtv {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.speakerdtv div {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+    color: white;
+    padding: 8px 18px;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+
+/* Sponsors */
+.sponsorGrid {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-
-    gap: 10px;
-    margin-top: 1lh;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 2rem;
 }
 
-.sponsorGrid img{
-    width: 20%;
+.sponsorGrid a {
+    display: inline-block;
+    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.sponsorGrid img {
+    width: 220px;
     height: auto;
     object-fit: contain;
+    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
     mix-blend-mode: multiply;
 }
 
-.themes{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    gap: 10px;
+/* Specific sizing for TSLAS logo */
+.sponsor-2 img {
+    width: 280px;
 }
 
-.themes li{
-    
-    background-color: var(--sec);
-    padding: 20px 20px;
-
-    text-align: left;
-
-    list-style: none;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
+.sponsorGrid a:hover {
+    transform: scale(1.1);
 }
 
-.themes li span{
-    margin-right: 20px;
-    font-size: 2rem;
+.sponsorGrid a:hover img {
+    filter: drop-shadow(0 4px 6px rgba(0,0,0,0.1));
+}
 
-    color: rgb(156, 156, 156);
+/* ===== Tablet ===== */
+@media screen and (max-width: 1024px) {
+    .themes {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 20px;
+    }
+
+    .sponsorGrid {
+        gap: 30px;
+    }
+
+    .sponsorGrid img {
+        width: 180px;
+    }
+
+    .sponsor-2 img {
+        width: 220px;
+    }
+
+    .keynotesFull .member-card.keynote {
+        flex-direction: column;
+    }
+
+    /* Stack sidebar on tablets */
+    .homeLayout {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+}
+
+/* ===== Mobile ===== */
+@media screen and (max-width: 768px) {
+    .themes {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .themes li {
+        padding: 25px 20px;
+        min-height: 160px;
+    }
+
+    .themes li span {
+        width: 60px;
+        height: 60px;
+        font-size: 2rem;
+    }
+
+    .sponsorGrid {
+        gap: 25px;
+    }
+
+    .sponsorGrid img {
+        width: 140px;
+    }
+
+    .sponsor-2 img {
+        width: 170px;
+    }
+
+    .speakerdtv {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .speakerdtv div {
+        text-align: center;
+    }
+}
+
+/* ===== Small Mobile ===== */
+@media screen and (max-width: 480px) {
+    .themes li {
+        padding: 20px 15px;
+        font-size: 0.95rem;
+    }
+
+    .themes li span {
+        width: 50px;
+        height: 50px;
+        font-size: 1.5rem;
+    }
+
+    .sponsorGrid {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .sponsorGrid img {
+        width: 140px;
+    }
+
+    /* Stack sidebar on mobile */
+    .homeLayout {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
 }

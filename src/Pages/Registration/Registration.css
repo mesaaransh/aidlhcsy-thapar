@@ -1,0 +1,264 @@
+/* ═══════════════════════════════════════════════════
+   Registration Page Styles
+   ═══════════════════════════════════════════════════ */
+
+.registration-page .page {
+    max-width: 960px;
+}
+
+/* ── Section Block ── */
+.reg-section {
+    background: var(--bg-surface);
+    border-radius: 16px;
+    padding: 40px 36px;
+    box-shadow: var(--shadow-md);
+    border: 1px solid var(--border-light);
+    margin-bottom: 30px;
+}
+
+.reg-section-title {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin: 0 0 28px;
+    padding-bottom: 16px;
+    border-bottom: 2px solid var(--border-light);
+}
+
+.reg-section-title svg {
+    font-size: 1.2rem;
+}
+
+/* ═══ Fee Table ═══ */
+.fee-table-wrapper {
+    overflow-x: auto;
+    border-radius: 12px;
+    border: 1px solid var(--border-light);
+}
+
+.fee-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+}
+
+.fee-table thead {
+    background: var(--primary);
+    color: #fff;
+}
+
+.fee-table th {
+    padding: 16px 18px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 0.9rem;
+    letter-spacing: 0.3px;
+    white-space: nowrap;
+}
+
+.fee-table td {
+    padding: 16px 18px;
+    border-bottom: 1px solid var(--border-light);
+    color: var(--text-primary);
+    vertical-align: middle;
+    line-height: 1.5;
+}
+
+.fee-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.fee-table tbody tr:hover {
+    background: rgba(var(--primary-rgb, 128, 0, 0), 0.03);
+}
+
+.category-cell {
+    font-weight: 600;
+    color: var(--text-primary);
+    border-right: 1px solid var(--border-light);
+}
+
+.membership-cell {
+    font-weight: 600;
+    color: var(--primary);
+}
+
+.usd-cell {
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+/* Fee Note */
+.fee-note {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    padding: 14px 18px;
+    background: #fff3cd;
+    border: 1px solid #ffc107;
+    border-left: 4px solid #ff9800;
+    border-radius: 8px;
+    color: #856404;
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.fee-note svg {
+    flex-shrink: 0;
+    font-size: 1rem;
+}
+
+/* ═══ Coming Soon Box ═══ */
+.coming-soon-box {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    background: linear-gradient(135deg, var(--bg-surface-2) 0%, var(--bg-surface) 100%);
+    border: 2px dashed var(--border-light);
+    border-radius: 14px;
+    padding: 35px 30px;
+    text-align: left;
+}
+
+.coming-soon-icon {
+    font-size: 2.5rem;
+    line-height: 1;
+    flex-shrink: 0;
+}
+
+.coming-soon-box h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin: 0 0 8px;
+}
+
+.coming-soon-box p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--text-secondary);
+    margin: 0;
+}
+
+/* ═══ Procedure ═══ */
+.procedure-content p {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--text-secondary);
+    margin-bottom: 20px;
+}
+
+.procedure-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-bottom: 25px;
+}
+
+.procedure-step {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 20px;
+    background: var(--bg-surface-2);
+    border: 1px solid var(--border-light);
+    border-radius: 10px;
+    transition: all 0.2s ease;
+}
+
+.procedure-step:hover {
+    border-color: var(--primary-light);
+    transform: translateX(4px);
+}
+
+.procedure-num {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+    color: white;
+    min-width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+
+.procedure-step p {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: var(--text-primary);
+}
+
+.procedure-note {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    background: #f8d7da;
+    border: 1px solid #f5c6cb;
+    border-left: 5px solid #dc3545;
+    border-radius: 10px;
+    padding: 18px 22px;
+    color: #721c24;
+}
+
+.procedure-note svg {
+    font-size: 1.2rem;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.procedure-note p {
+    margin: 0;
+    font-size: 0.93rem;
+    line-height: 1.6;
+    color: #721c24;
+}
+
+/* ═══ Responsive ═══ */
+@media screen and (max-width: 768px) {
+    .reg-section {
+        padding: 28px 20px;
+    }
+
+    .reg-section-title {
+        font-size: 1.25rem;
+    }
+
+    .fee-table {
+        font-size: 0.85rem;
+    }
+
+    .fee-table th,
+    .fee-table td {
+        padding: 12px 10px;
+    }
+
+    .coming-soon-box {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 20px;
+    }
+
+    .coming-soon-icon {
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .fee-table {
+        font-size: 0.8rem;
+    }
+
+    .fee-table th,
+    .fee-table td {
+        padding: 10px 8px;
+    }
+}

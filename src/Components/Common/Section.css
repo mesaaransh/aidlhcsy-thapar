@@ -1,0 +1,50 @@
+.common-section {
+    padding: 60px 0;
+    width: 100%;
+}
+
+.common-section h3.section-title {
+    font-size: 1.8rem;
+    color: var(--accent-blue);
+    text-align: left;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    position: relative;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+    border-left: 4px solid var(--accent-blue);
+    border-bottom: 2px solid var(--border-light);
+}
+
+
+.section-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px;
+    justify-content: center;
+    padding: 0 10px;
+}
+
+.section-content.block {
+    display: block;
+    padding: 0; 
+}
+
+/* Committee grid - 2 columns for simple cards */
+.section-content.committee-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 0;
+}
+
+
+
+@media (max-width: 768px) {
+    .section-content.committee-grid {
+        grid-template-columns: 1fr;
+    }
+}
+

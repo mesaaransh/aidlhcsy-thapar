@@ -5,7 +5,7 @@ var tracks = [
     chairs: [
       {
         name: "Dr. Ashwani Sharma",
-        des: "IIT Ropar, India"
+        des: "Indian Institute of Technology Ropar, India"
       }
     ]
   },
@@ -25,7 +25,7 @@ var tracks = [
     chairs: [
       {
         name: "Dr Mudit Gupta",
-        des: "CEO, Saral Diagnostics"
+        des: "Saral Diagnostics, India"
       }
     ]
   },
@@ -35,25 +35,26 @@ var tracks = [
     chairs: [
       {
         name: "Prof. Prabin Kumar Padhy",
-        des: "IITDM, Jabalpur, India"
+        des: "Indian Institute of Information Technology Design and Manufacturing Jabalpur, India"
       },
-      {
-        name: "Dr. Sachin Kumar Jain",
-        des: "IITDM, Jabalpur, India"
-      }
+      
     ]
   },
   {
     title: "Intelligent Control, Robotics, and Autonomous Systems",
     sub: "Adaptive/robust control, cooperative/optimal/motion control, AI-based control systems.",
     chairs: [
+      // {
+      //   name: "Prof. Kulbir Singh",
+      //   des: "Thapar Institute of Engineering and Technology, Patiala, India"
+      // },
+      // {
+      //   name: "Dr. Vinay Kumar Vakharia",
+      //   des: "Pandit Deendayal Energy University, Gandhinagar, India"
+      // }
       {
-        name: "Prof. Kulbir Singh",
-        des: "TIET, Patiala, India"
-      },
-      {
-        name: "Dr. Vinay Kumar Vakharia",
-        des: "PDEU, Gandhinagar, India"
+        name: "Dr. Sachin Kumar Jain",
+        des: "Indian Institute of Information Technology Design and Manufacturing Jabalpur, India"
       }
     ]
   },
@@ -62,8 +63,8 @@ var tracks = [
     sub: "Business model canvas, entrepreneurial opportunities, development of human-centric solutions.",
     chairs: [
       {
-        name: "Prof. Mandeep Singh",
-        des: "TIET, Patiala, India"
+        name: "Dr. Mandeep Singh",
+        des: "Thapar Institute of Engineering and Technology, Patiala, India"
       }
     ]
   }

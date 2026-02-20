@@ -13,9 +13,9 @@
 
     height: 100%;
     width: 100%;
-    background-color: black;
+    background-color: rgb(52, 49, 49);
 
-    opacity: 0.3;
+    opacity: 0.6;
     z-index: 1;
 }
 
@@ -39,21 +39,95 @@
 
 .headerTopContent {
   position: absolute;
-  width: 100%;
+  width: 90%; /* prevent text from touching edges on small screens */
+  max-width: 1200px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
   z-index: 2;
   text-align: center;
-  text-shadow: 0px 0px 20px black;
+  text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
 
 .headerTopContent h1{
-  font-size: 4rem;
+  font-size: clamp(2.5rem, 5vw, 5rem); /* Responsive font size */
+  color: white !important; /* Force white override */
+  margin-bottom: 0;
+  line-height: 1.1;
 }
 
 .headerTopContent h3{
-  margin-top: 20px;
+  font-size: clamp(1.2rem, 2vw, 1.8rem);
+  color: white !important;
+  font-weight: 500;
+  max-width: 800px;
+  margin: 0;
+}
+
+.dtv h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--accent-gold) !important; /* Gold for date/location distinctiveness */
+    margin-top: 10px;
+}
+
+.buttonGroup {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Ensure buttons stand out on dark overlay */
+.btn.light {
+    background: rgba(255, 255, 255, 0.9);
+    border: none;
+}
+
+.btn.light:hover {
+    background: white;
+}
+
+/* Compact style for subpages */
+.slideshowContainer.compact {
+  height: 40vh;
+}
+
+.headerTopContent.compact {
+  top: 60%;
+}
+
+.headerTopContent.compact h1 {
+  font-size: clamp(2rem, 4vw, 3.5rem);
+}
+
+.heroLogos {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroLogo {
+    height: 100px;
+    width: auto;
+    filter: drop-shadow(0 0 10px rgba(0,0,0,0.5));
+}
+
+.tslasLogo {
+    height: 135px;
+}
+
+@media (max-width: 768px) {
+    .heroLogo { height: 70px; }
+    .tslasLogo { height: 90px; }
+    .heroLogos { gap: 15px; }
 }
 
