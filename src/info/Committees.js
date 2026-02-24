@@ -89,6 +89,7 @@ const committeeData = {
             members: [
                 { name: 'Dr Mohd Wajid', img: './dummy.jpg', position: 'Aligarh Muslim University, Aligarh' },
                 { name: 'Dr Vivek Bawa', img: './dummy.jpg', position: 'University of Plymouth, UK' },
+                { name: 'Dr. Chandramohan Dhasarathan', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
             ],
         },
         {

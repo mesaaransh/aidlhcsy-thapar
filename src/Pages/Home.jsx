@@ -127,6 +127,17 @@ export default function Home() {
                         </div>
                     </Section>
 
+                    <Section title="Schedule" variant="block">
+                        <div className="schedule-container" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem', alignItems: 'start' }}>
+                            <div style={{ width: '100%', height: '600px', borderRadius: '8px', overflow: 'hidden', boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)', display: 'flex', justifyContent: 'center', backgroundColor: '#f9f9f9' }}>
+                                <img src="./schedule.jpeg" alt="Conference Schedule" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+                            </div>
+                            <div style={{ width: '100%', height: '600px', borderRadius: '8px', overflow: 'hidden', boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)' }}>
+                                <iframe src="./Pravah_Schedule.pdf" width="100%" height="100%" style={{ border: 'none' }} title="Schedule PDF Preview"></iframe>
+                            </div>
+                        </div>
+                    </Section>
+
                     <Section title="Our Sponsors" variant="block">
                         <div className="sponsorGrid" role="list">
                             {sponsorLogos}
