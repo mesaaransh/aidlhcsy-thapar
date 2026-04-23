@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import SupCom from './Pages/OrgCom/SupCom'
 import Authors from './Pages/Authors/Authors'
 import TPC from './Pages/OrgCom/TPC'
+import SOCom from './Pages/OrgCom/SOCom'
 import AboutThapar from './Pages/AboutThapar'
 import AboutPatiala from './Pages/AboutPatiala'
 import Registration from './Pages/Registration/Registration'
@@ -28,6 +29,7 @@ function App() {
             <Route path="OrgCommittee" element={<OrgCom />} />
             <Route path="SupCommittee" element={<SupCom />} />
             <Route path="tpc" element={<TPC />} />
+            <Route path="SOCommittee" element={<SOCom />} />
             <Route path="about-thapar" element={<AboutThapar />} />
             <Route path="about-patiala" element={<AboutPatiala />} />
             <Route path="registration" element={<Registration />} />

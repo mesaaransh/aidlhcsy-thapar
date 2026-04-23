@@ -1,7 +1,7 @@
 import React from 'react';
 import './MemberCard.css';
 
-const MemberCard = ({ name, img, position, affiliation, isKeynote = false, variant = 'default', children }) => {
+const MemberCard = ({ name, img, position, affiliation, email, isKeynote = false, variant = 'default', children }) => {
     // Simple variant for committee pages (no image, just name + position with left border)
     if (variant === 'simple') {
         return (
@@ -10,6 +10,7 @@ const MemberCard = ({ name, img, position, affiliation, isKeynote = false, varia
                     <h4 className="member-name">{name}</h4>
                     {position && <p className="member-position">{position}</p>}
                     {affiliation && <p className="member-affiliation">{affiliation}</p>}
+                    {email && <a className="member-email" href={`mailto:${email}`}>{email}</a>}
                 </div>
             </div>
         );

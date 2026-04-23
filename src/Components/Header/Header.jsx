@@ -59,6 +59,7 @@ export default function Header() {
               <li><Link to="/OrgCommittee">Organizing Committee</Link></li>
               <li><Link to="/SupCommittee">Supporting Committee</Link></li>
               <li><Link to="/tpc">Technical Program Committee</Link></li>
+              <li><Link to="/SOCommittee">Section Oversight Committee</Link></li>
             </ul>
           </li>
 

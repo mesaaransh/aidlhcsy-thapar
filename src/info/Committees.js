@@ -132,6 +132,17 @@ const committeeData = {
             ],
         },
     ],
+    sectionOversight: [
+        {
+            title: 'Section Oversight Committee',
+            members: [
+                { name: 'Prof. Vivek Shrivastava', img: './dummy.jpg', position: 'LMC', email: 'shvivek@gmail.com' },
+                { name: 'Prof. Rajnish Sharma', img: './dummy.jpg', position: 'Vice Chair', email: 'rajnish@ieee.org' },
+                { name: 'Dr. Ekta Gandotra', img: './dummy.jpg', position: '', email: 'ekta.gandotra@juitsolan.in' },
+                { name: 'Prof. Sneha Kabra', img: './dummy.jpg', position: 'Secretary / Treasurer', email: 'snehakabra@ieee.org' },
+            ],
+        },
+    ],
     technical: [
         // {
         //     title: 'Track Chairs',
