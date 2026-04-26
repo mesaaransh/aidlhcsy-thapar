@@ -136,10 +136,10 @@ const committeeData = {
         {
             title: 'Section Oversight Committee',
             members: [
-                { name: 'Prof. Vivek Shrivastava', img: './dummy.jpg', position: 'LMC', email: 'shvivek@gmail.com' },
-                { name: 'Prof. Rajnish Sharma', img: './dummy.jpg', position: 'Vice Chair', email: 'rajnish@ieee.org' },
-                { name: 'Dr. Ekta Gandotra', img: './dummy.jpg', position: '', email: 'ekta.gandotra@juitsolan.in' },
-                { name: 'Prof. Sneha Kabra', img: './dummy.jpg', position: 'Secretary / Treasurer', email: 'snehakabra@ieee.org' },
+                { name: 'Prof. Vivek Shrivastava', img: './dummy.jpg', position: 'Lead Member Coordinator for AIDL-HCSY and Section Executive Committee Member Co-opted &Member-IEEE Delhi Section STDCOM on T & P Act' },
+                { name: 'Prof. Rajnish Sharma', img: './dummy.jpg', position: 'Section Vice Chair & Member-IEEE Delhi Section STDCOM on T & P Act' },
+                { name: 'Dr. Ekta Gandotra', img: './dummy.jpg', position: 'Member-IEEE Delhi Section STDCOM on T & P Act' },
+                { name: 'Prof. Sneha Kabra', img: './dummy.jpg', position: 'Section Secretary, Interim Section Treasurer & Member-IEEE Delhi Section STDCOM on T & P Act' },
             ],
         },
     ],
