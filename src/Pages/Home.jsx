@@ -9,7 +9,10 @@ import {
     faLightbulb,
     faEye,
     faChevronDown,
+    faFileAlt,
+    faArrowRight,
 } from '@fortawesome/free-solid-svg-icons';
+import { Link } from "react-router-dom";
 
 import Section from "../Components/Common/Section";
 import MemberCard from "../Components/Common/MemberCard";
@@ -128,13 +131,20 @@ export default function Home() {
                     </Section>
 
                     <Section title="Schedule" variant="block">
-                        <div className="schedule-container" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem', alignItems: 'start' }}>
-                            <div style={{ width: '100%', height: '600px', borderRadius: '8px', overflow: 'hidden', boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)', display: 'flex', justifyContent: 'center', backgroundColor: '#f9f9f9' }}>
-                                <img src="./schedule.jpeg" alt="Conference Schedule" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
-                            </div>
-                            <div style={{ width: '100%', height: '600px', borderRadius: '8px', overflow: 'hidden', boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)' }}>
-                                <iframe src="./Pravah_Schedule.pdf" width="100%" height="100%" style={{ border: 'none' }} title="Schedule PDF Preview"></iframe>
-                            </div>
+                        <div style={{ display: 'flex', justifyContent: 'center' }}>
+                            <img src="./schedule.jpeg" alt="Conference Schedule" style={{ maxWidth: '500px', width: '100%', height: 'auto', borderRadius: '8px', boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)' }} />
+                        </div>
+                    </Section>
+
+                    <Section title="Call for Papers" variant="block">
+                        <p>We invite high-quality original research contributions on AI and deep learning for human-centric systems. Submit your work and be part of this global academic dialogue.</p>
+                        <div style={{ marginTop: '1.5rem', display: 'flex', gap: '1rem', flexWrap: 'wrap', alignItems: 'center' }}>
+                            <Link to="/authors" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', backgroundColor: 'var(--primary, #8b1a1a)', color: 'white', padding: '0.75rem 1.5rem', borderRadius: '6px', textDecoration: 'none', fontWeight: '600' }}>
+                                <FontAwesomeIcon icon={faFileAlt} /> Submit Your Paper <FontAwesomeIcon icon={faArrowRight} />
+                            </Link>
+                            <Link to="/authors" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', border: '2px solid var(--primary, #8b1a1a)', color: 'var(--primary, #8b1a1a)', padding: '0.75rem 1.5rem', borderRadius: '6px', textDecoration: 'none', fontWeight: '600' }}>
+                                View Author Guidelines
+                            </Link>
                         </div>
                     </Section>
 

@@ -44,6 +44,8 @@ export default function Footer() {
           © Copyright {new Date().getFullYear()} - All Rights Reserved
           <br />
           {conferenceInfo.venue}
+          <br />
+          <span style={{ fontSize: '0.8rem', opacity: 0.8 }}>Webmaster: Dr. Rahul Upadhyay &amp; Mr. Kunal Gupta</span>
         </div>
       </section>
     </footer>

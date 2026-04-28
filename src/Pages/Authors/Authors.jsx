@@ -97,28 +97,23 @@ export default function Authors() {
                     {/* Important Dates */}
                     <Section title="Important Dates" variant="block">
                         <div className="dates-grid">
-                            <div className="date-card highlight">
-                                <FontAwesomeIcon icon={faCalendarAlt} className="date-card-icon" />
-                                <div>
-                                    <span className="date-label">Final Paper Submission Deadline</span>
-                                    <span className="date-value">30 August 2026</span>
-                                    <span className="date-note">All PDFs must be approved and copyright forms completed by this date</span>
+                            {[
+                                { label: "Paper Submission Deadline", value: "30th August 2026", highlight: true },
+                                { label: "Peer Review Period Start", value: "1st September 2026" },
+                                { label: "Peer Review Period End", value: "10th October 2026" },
+                                { label: "Notification of Acceptance", value: "15th October 2026" },
+                                { label: "Camera Ready Submission", value: "15th November 2026" },
+                                { label: "Registration Deadline", value: "30th November 2026" },
+                                { label: "Conference Dates", value: "18th – 20th January 2027" },
+                            ].map((d) => (
+                                <div className={`date-card${d.highlight ? ' highlight' : ''}`} key={d.label}>
+                                    <FontAwesomeIcon icon={faCalendarAlt} className="date-card-icon" />
+                                    <div>
+                                        <span className="date-label">{d.label}</span>
+                                        <span className="date-value">{d.value}</span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div className="date-card">
-                                <FontAwesomeIcon icon={faCalendarAlt} className="date-card-icon" />
-                                <div>
-                                    <span className="date-label">Conference Dates</span>
-                                    <span className="date-value">18 – 20 January 2027</span>
-                                </div>
-                            </div>
-                            <div className="date-card">
-                                <FontAwesomeIcon icon={faCalendarAlt} className="date-card-icon" />
-                                <div>
-                                    <span className="date-label">Venue</span>
-                                    <span className="date-value">Thapar Institute of Engineering and Technology, Patiala, India</span>
-                                </div>
-                            </div>
+                            ))}
                         </div>
                     </Section>
 
