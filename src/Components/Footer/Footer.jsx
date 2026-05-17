@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import CountdownTimer from "./CountdownTimer";
 import "./Footer.css";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faBullhorn } from "@fortawesome/free-solid-svg-icons";
 import { faFacebookF, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { conferenceInfo } from "../../data/conferenceData";
 import { Link } from "react-router-dom"
@@ -13,6 +13,18 @@ export default function Footer() {
         <h2>{conferenceInfo.name} WILL BEGIN IN</h2>
         <CountdownTimer targetDate={conferenceInfo.countdownTarget} />
       </section> */}
+
+      <section className="footerFootnotes" aria-label="Announcements and Footnotes">
+        <div className="footerFootnotesContent">
+          <div className="footerFootnotesHeader">
+            <FontAwesomeIcon icon={faBullhorn} className="footnoteIcon" />
+            <h3>Important Announcements</h3>
+          </div>
+          <p>
+            The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
+          </p>
+        </div>
+      </section>
 
       <section className="footerBottom">
         <div className="col footerBrand">
@@ -28,7 +40,7 @@ export default function Footer() {
 
         <div className="col">
           <nav className="icons" aria-label="Social Media Links">
-            <a href="mailto:contact@example.com" aria-label="Email">
+            <a href="mailto:act@thpar.edu" aria-label="Email">
               <FontAwesomeIcon icon={faEnvelope} />
             </a>
             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">

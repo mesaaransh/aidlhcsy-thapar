@@ -74,25 +74,6 @@ export default function Home() {
             <div className="homeLayout page" id="home">
                 {/* Main Content Column */}
                 <article className="homeContent">
-                    <div className="cmt-announcement-bar" style={{
-                        backgroundColor: '#f8f9fa',
-                        color: '#333',
-                        padding: '1.5rem',
-                        borderRadius: '8px',
-                        marginBottom: '2rem',
-                        borderLeft: '5px solid var(--primary, #8b1a1a)',
-                        boxShadow: '0 2px 4px rgba(0,0,0,0.05)',
-                        fontSize: '0.95rem',
-                        lineHeight: '1.6'
-                    }}>
-                        <h3 style={{ marginTop: 0, marginBottom: '0.75rem', color: 'var(--primary, #8b1a1a)', fontSize: '1.25rem', fontWeight: '600' }}>
-                            Announcements
-                        </h3>
-                        <p style={{ margin: 0 }}>
-                            The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
-                        </p>
-                    </div>
-
                     <header>
                         <h2>Welcome to {conferenceInfo.name}</h2>
                     </header>
