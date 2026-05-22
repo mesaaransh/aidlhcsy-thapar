@@ -51,8 +51,6 @@ export default function Header() {
             </ul>
           </li>
 
-          <li><Link to='/authors'>Author's Area</Link></li>
-
           <li className="dropdown">
             <span>Committee <FontAwesomeIcon icon={faCaretDown} /></span>
             <ul className="dropdown-menu">
@@ -62,6 +60,8 @@ export default function Header() {
               <li><Link to="/SOCommittee">Section Oversight Committee</Link></li>
             </ul>
           </li>
+
+          <li><Link to='/authors'>Author's Area</Link></li>
 
           <li><Link to='/registration'>Registration</Link></li>
           <li><Link to='/venue'>Venue</Link></li>

@@ -103,7 +103,7 @@ export default function Authors() {
                                 { label: "Peer Review Period End", value: "10th October 2026" },
                                 { label: "Notification of Acceptance", value: "15th October 2026" },
                                 { label: "Camera Ready Submission", value: "15th November 2026" },
-                                { label: "Registration Deadline", value: "30th November 2026" },
+                                { label: "Registration Deadline (Early Bird)", value: "20th December 2026" },
                                 { label: "Conference Dates", value: "18th – 20th January 2027" },
                             ].map((d) => (
                                 <div className={`date-card${d.highlight ? ' highlight' : ''}`} key={d.label}>

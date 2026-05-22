@@ -42,8 +42,8 @@ export const importantDates = [
     },
     {
         id: 6,
-        label: "Registration Deadline",
-        date: "30th November 2026",
+        label: "Registration Deadline (Early Bird)",
+        date: "20th December 2026",
         key: "registration"
     },
     {
