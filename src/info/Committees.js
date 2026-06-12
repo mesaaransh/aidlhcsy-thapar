@@ -45,7 +45,7 @@ const committeeData = {
                 { name: 'Prof R S Kaler', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
                 { name: 'Dr Meenakshi Sood', img: './dummy.jpg', position: 'National Institute of Technical Teachers Training and Research, Chandigarh, India' },
                 { name: 'Dr Shashikant', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
-                { name: 'Prof (retd) Sunil Bhooshan', img: './dummy.jpg', position: 'Mahindra University, Hyderabad, India' },
+                { name: 'Prof Sunil Bhooshan', img: './dummy.jpg', position: 'Mahindra University, Hyderabad, India' },
             ],
         },
         {

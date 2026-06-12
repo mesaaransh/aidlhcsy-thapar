@@ -32,12 +32,12 @@ const HeaderSlideshow = ({ type = "full" }) => {
             <div className={`headerTopContent ${type === 'compact' ? 'compact' : ''}`}>
                 <div className="heroLogos">
                     <img src="./tiet.png" alt="Thapar Institute" className="heroLogo" />
-                    <img src="./TSLAS-LOGO.PNG" alt="TSLAS" className="heroLogo tslasLogo" />
                     <img src="./IEEE.webp" alt="IEEE Delhi Section" className="heroLogo" />
+                    <img src="./TSLAS-LOGO.PNG" alt="TSLAS" className="heroLogo tslasLogo" />
                 </div>
                 <h1>AIDL - HCSY 2027</h1>
                 <h3>
-                    International Conference on <br />
+                    2027 International Conference on <br />
                     Artificial Intelligence and Deep Learning Methods for Human-Centric Systems
                 </h3>
                 {type === 'full' && (

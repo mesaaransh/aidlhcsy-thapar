@@ -1,7 +1,7 @@
 // Centralized conference data configuration
 export const conferenceInfo = {
     name: "AIDL-HCSY",
-    fullName: "International Conference on Artificial Intelligence and Deep Learning Methods for Human-Centric Systems",
+    fullName: "2027 International Conference on Artificial Intelligence and Deep Learning Methods for Human-Centric Systems",
     year: 2027,
     dates: "18th - 20th January 2027",
     venue: "Thapar Institute of Engineering and Technology",
@@ -100,17 +100,18 @@ export const sponsors = [
         logo: "./tiet.png",
         url: "https://www.thapar.edu/"
     },
+    
     {
         id: 2,
-        name: "Thapar School of Liberal Arts and Sciences",
-        logo: "./TSLAS-LOGO.PNG",
-        url: "#"
-    },
-    {
-        id: 3,
         name: "IEEE",
         logo: "./IEEE.webp",
         url: "https://www.ieee.org/"
+    },
+    {
+        id: 3,
+        name: "Thapar School of Liberal Arts and Sciences",
+        logo: "./TSLAS-LOGO.PNG",
+        url: "#"
     }
 ];
 

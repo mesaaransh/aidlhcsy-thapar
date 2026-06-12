@@ -47,7 +47,7 @@ export default function Authors() {
                     
                     {/* Call for Papers */}
                     <Section title="Call for Papers" variant="block">
-                        <p>The International Conference on Artificial Intelligence and Deep Learning Methods for Human-Centric Systems (AIDL-HCSY 2027) invites high-quality original research contributions that address the role of AI and deep learning in enhancing human-centered design, societal impact, and ethical deployment. Authors are encouraged to submit unpublished, original research papers that explore theoretical advancements, methodological innovations, and real-world applications across a diverse range of AI domains. All submissions will undergo a peer-reviewed process to ensure quality, relevance, and scientific rigor.</p>
+                        <p>The 2027 International Conference on Artificial Intelligence and Deep Learning Methods for Human-Centric Systems (AIDL-HCSY 2027) invites high-quality original research contributions that address the role of AI and deep learning in enhancing human-centered design, societal impact, and ethical deployment. Authors are encouraged to submit unpublished, original research papers that explore theoretical advancements, methodological innovations, and real-world applications across a diverse range of AI domains. All submissions will undergo a peer-reviewed process to ensure quality, relevance, and scientific rigor.</p>
                         <p>We welcome submissions from academia, industry, and policy research communities to foster a rich, interdisciplinary dialogue.</p>
 
                         <p>

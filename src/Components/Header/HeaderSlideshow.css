@@ -108,11 +108,24 @@
 }
 
 .heroLogos {
-    display: flex;
-    gap: 30px;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    column-gap: 30px;
+    width: 100%;
     margin-bottom: 20px;
     align-items: center;
-    justify-content: center;
+}
+
+.heroLogos .heroLogo:first-child {
+    justify-self: end;
+}
+
+.heroLogos .heroLogo:nth-child(2) {
+    justify-self: center;
+}
+
+.heroLogos .heroLogo:last-child {
+    justify-self: start;
 }
 
 .heroLogo {
@@ -128,6 +141,5 @@
 @media (max-width: 768px) {
     .heroLogo { height: 70px; }
     .tslasLogo { height: 90px; }
-    .heroLogos { gap: 15px; }
+    .heroLogos { column-gap: 15px; }
 }
-
