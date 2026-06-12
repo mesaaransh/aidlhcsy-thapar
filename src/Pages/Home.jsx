@@ -130,11 +130,7 @@ export default function Home() {
                         </div>
                     </Section>
 
-                    <Section title="Schedule" variant="block">
-                        <div style={{ display: 'flex', justifyContent: 'center' }}>
-                            <img src="./schedule.jpeg" alt="Conference Schedule" style={{ maxWidth: '500px', width: '100%', height: 'auto', borderRadius: '8px', boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)' }} />
-                        </div>
-                    </Section>
+                   
 
                     <Section title="Call for Papers" variant="block">
                         <p>We invite high-quality original research contributions on AI and deep learning for human-centric systems. Submit your work and be part of this global academic dialogue.</p>

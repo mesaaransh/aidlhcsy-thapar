@@ -103,7 +103,7 @@ export const sponsors = [
     {
         id: 2,
         name: "Thapar School of Liberal Arts and Sciences",
-        logo: "./tslas.png",
+        logo: "./TSLAS-LOGO.PNG",
         url: "#"
     },
     {

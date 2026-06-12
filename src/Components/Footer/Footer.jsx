@@ -30,7 +30,7 @@ export default function Footer() {
         <div className="col footerBrand">
           <Link to="/">
             <img
-              src="/aidl_logo.png"
+              src="/aidl-logo.png"
               alt="AIDL-HCSY Logo"
               className="footerLogo"
               style={{ height: "4.5rem", width: "auto", background: "white", borderRadius: "8px", padding: "6px" }}

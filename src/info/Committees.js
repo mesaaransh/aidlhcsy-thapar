@@ -98,7 +98,7 @@ const committeeData = {
                 { name: 'Dr Anupam Garg', img: './dummy.jpg', position: 'Thapar School of Liberal Arts & Sciences, Patiala, India' },
                 { name: 'Dr Gaganpreet Kaur', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
                 { name: 'Dr Alka Pandita', img: './dummy.jpg', position: 'Thapar School of Liberal Arts & Sciences, Patiala, India' },
-                { name: 'Mr Navdeep Singh', img: './dummy.jpg', position: 'Thapar School of Liberal Arts & Sciences, Patiala, India' },
+                { name: 'Mr Munish Prabhakar', img: './dummy.jpg', position: 'Thapar School of Liberal Arts & Sciences, Patiala, India' },
             ],
         },
         {
@@ -128,7 +128,6 @@ const committeeData = {
                 { name: 'Ms Palack Deep Kaur', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
                 { name: 'Mr Harvinder', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
                 { name: 'Mr Manoj Arya', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
-                { name: 'Mr Armaan Goyal', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
             ],
         },
     ],

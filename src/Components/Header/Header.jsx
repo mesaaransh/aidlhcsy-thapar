@@ -28,7 +28,7 @@ export default function Header() {
     <nav className={`navbar ${scrolled || !isHome ? 'navbar-solid' : 'navbar-transparent'}`}>
       <div className="navbarInner">
         <Link to="/" className="navBrand">
-          <img src="/aidl_logo.png" alt="AIDL-HCSY Logo" className="navLogo" style={{ height: "3.5rem", width: "auto" }} />
+          <img src="/aidl-logo.png" alt="AIDL-HCSY Logo" className="navLogo" style={{ height: "3.5rem", width: "auto" }} />
         </Link>
 
         <button
