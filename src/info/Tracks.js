@@ -24,8 +24,8 @@ var tracks = [
     sub: "Deep learning for text and NLP, conversational AI, multimodal interaction.",
     chairs: [
       {
-        name: "Dr Mudit Gupta",
-        des: "Saral Diagnostics, India"
+        name: "Prof. Pavan Kumar Kankar",
+        des: "Indian Institute of Technology, Indore"
       }
     ]
   },
@@ -63,7 +63,7 @@ var tracks = [
     sub: "Business model canvas, entrepreneurial opportunities, development of human-centric solutions.",
     chairs: [
       {
-        name: "Dr. Mandeep Singh",
+        name: "Dr. Karmjit Singh Sandha",
         des: "Thapar Institute of Engineering and Technology, Patiala, India"
       }
     ]

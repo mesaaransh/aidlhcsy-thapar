@@ -124,7 +124,7 @@ export default function Authors() {
                                 <FontAwesomeIcon icon={faEnvelope} className="contact-icon" />
                                 <div>
                                     <span className="contact-label">Paper Submission, Technical Queries & Registration Queries</span>
-                                    <a href="mailto:queries.aidl2027@thapar.edu" className="contact-link">queries.aidl2027@thapar.edu</a>
+                                    <a href="mailto:aidlhcsy-ieee@thapar.edu" className="contact-link">aidlhcsy-ieee@thapar.edu</a>
                                 </div>
                             </div>
                             <div className="contact-card">
@@ -328,45 +328,12 @@ export default function Authors() {
                         <p className="steps-note"><FontAwesomeIcon icon={faExclamationTriangle} /> All PDFs must be approved before the deadline.</p>
                     </Section>
 
-                    {/* Step 6: Copyright Submission */}
-                    <Section title="6. Copyright Submission" variant="block">
-                        <div className="copyright-deadline">
-                            <FontAwesomeIcon icon={faCalendarAlt} />
-                            <span>Deadline: <strong>15 November 2026</strong></span>
-                        </div>
-
-                        <p>After PDF approval:</p>
-                        <div className="numbered-steps">
-                            <div className="numbered-step">
-                                <span className="step-number">1</span>
-                                <p>Select the <strong>"Submit Copyright"</strong> option.</p>
-                            </div>
-                            <div className="numbered-step">
-                                <span className="step-number">2</span>
-                                <p>Verify metadata carefully.</p>
-                            </div>
-                            <div className="numbered-step">
-                                <span className="step-number">3</span>
-                                <p>Confirm correctness.</p>
-                            </div>
-                            <div className="numbered-step">
-                                <span className="step-number">4</span>
-                                <p>Complete the electronic copyright form.</p>
-                            </div>
-                        </div>
-
-                        <p className="info-note">You will receive a PDF copy of the completed form for your records.</p>
-
-                        <div className="warning-box">
-                            <FontAwesomeIcon icon={faExclamationTriangle} />
-                            <p><strong>Failure to submit copyright will result in exclusion from publication.</strong></p>
-                        </div>
-                    </Section>
+                    
 
                     {/* Additional Notes */}
                     <Section title="Additional Notes" variant="block">
                         <ul className="additional-notes">
-                            <li><FontAwesomeIcon icon={faCheckCircle} className="check-icon" /> A <strong>full registration</strong> is required to upload final papers (up to 3 papers per full registration).</li>
+                            
                             <li><FontAwesomeIcon icon={faCheckCircle} className="check-icon" /> At least <strong>one author must attend</strong> and present the paper.</li>
                             <li><FontAwesomeIcon icon={faCheckCircle} className="check-icon" /> Papers not presented will <strong>not be included</strong> in the final proceedings.</li>
                         </ul>
@@ -374,17 +341,6 @@ export default function Authors() {
 
 
 
-                    {/* FAQ */}
-                    <Section title="Frequently Asked Questions" variant="block">
-                        <div className="faq-box">
-                            <FontAwesomeIcon icon={faQuestionCircle} className="faq-icon" />
-                            <div>
-                                <p>Please visit the conference website for detailed FAQs and submission support:</p>
-                                <a href="https://conference-livid-xi.vercel.app" target="_blank" rel="noopener noreferrer" className="faq-link">conference-livid-xi.vercel.app</a>
-                                <p>For additional assistance, contact the conference secretariat at <a href="mailto:queries.aidl2027@thapar.edu">queries.aidl2027@thapar.edu</a></p>
-                            </div>
-                        </div>
-                    </Section>
 
                     {/* Welcome message */}
                     <div className="welcome-footer">

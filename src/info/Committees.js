@@ -3,26 +3,26 @@ const committeeData = {
         {
             title: 'Chief Patron',
             members: [
-                { name: 'Dr Rajeev Ranjan Vederah', img: './dummy.jpg', position: 'Chancellor, Thapar Institute of Engineering and Technology (TIET), Patiala, India' },
+                { name: 'Dr Rajeev Ranjan Vederah', img: './dummy.jpg', position: 'Chancellor, Thapar Institute of Engineering and Technology, Patiala, India' },
             ],
         },
         {
             title: 'Patron',
             members: [
-                { name: 'Prof Padmakumar Nair', img: './dummy.jpg', position: 'Vice Chancellor, Thapar Institute of Engineering and Technology.' },
+                { name: 'Prof Padmakumar Nair', img: './dummy.jpg', position: 'Vice Chancellor, Thapar Institute of Engineering and Technology, Patiala, India' },
             ],
         },
         {
             title: 'Honorary Chairs',
             members: [
-                { name: 'Prof Ajay Batish', img: './dummy.jpg', position: 'Pro Vice Chancellor, Thapar Institute of Engineering and Technology.' },
-                { name: 'Prof Hans van Ees', img: './dummy.jpg', position: 'Honorary Dean, Thapar School of Liberal Arts & Sciences, Patiala.' },
+                { name: 'Prof Ajay Batish', img: './dummy.jpg', position: 'Pro Vice Chancellor, Thapar Institute of Engineering and Technology, Patiala, India' },
+                { name: 'Prof Hans Van Ees', img: './dummy.jpg', position: 'Honorary Dean, Thapar School of Liberal Arts & Sciences, Patiala.' },
             ],
         },
         {
             title: 'General Chairs',
             members: [
-                { name: 'Prof Vinay Kumar', img: './dummy.jpg', position: 'Dean, Thapar School of Liberal Arts & Sciences, Thapar Institute of Engineering and Technology, Patiala, India' },
+                { name: 'Prof Vinay Kumar', img: './dummy.jpg', position: 'Thapar School of Liberal Arts & Sciences, Thapar Institute of Engineering and Technology, Patiala, India' },
                 { name: 'Prof Tim Miller', img: './dummy.jpg', position: 'School of Electrical Engineering and Computer Science, The University of Queensland' },
             ],
         },
@@ -44,7 +44,7 @@ const committeeData = {
             members: [
                 { name: 'Prof R S Kaler', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
                 { name: 'Dr Meenakshi Sood', img: './dummy.jpg', position: 'National Institute of Technical Teachers Training and Research, Chandigarh, India' },
-                { name: 'Dr Shashikant', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
+                { name: 'Prof Shalini Batra', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
                 { name: 'Prof Sunil Bhooshan', img: './dummy.jpg', position: 'Mahindra University, Hyderabad, India' },
             ],
         },
@@ -59,6 +59,7 @@ const committeeData = {
                 { name: 'Prof Rajashri Khanai', img: './dummy.jpg', position: 'KLE Technological University, Belagavi Campus, India' },
                 { name: 'Dr Karun Verma', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
                 { name: 'Prof. Kulbir Singh', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
+                { name: 'Dr. Sara Chandy', img: './dummy.jpg', position: 'Technical Director, Associated Medical Specialities, Vellore' },
             ],
         },
         // {
@@ -104,9 +105,10 @@ const committeeData = {
         {
             title: 'Publicity Committee',
             members: [
-                { name: 'Ms Radhika Kalia', img: './dummy.jpg', position: 'Thapar School of Liberal Arts & Sciences, Patiala, India' },
                 { name: 'Ms Nivedita Anand', img: './dummy.jpg', position: 'Thapar School of Liberal Arts & Sciences, Patiala, India' },
-                { name: 'Ms Sharnish Kaur', img: './dummy.jpg', position: 'Thapar School of Liberal Arts & Sciences, Patiala, India' },
+                { name: 'Ms Radhika Kalia', img: './dummy.jpg', position: 'Thapar School of Liberal Arts & Sciences, Patiala, India' },
+                
+                { name: 'Ms. Navtika Bedi', img: './dummy.jpg', position: 'Thapar School of Liberal Arts & Sciences, Patiala, India' },
                 { name: 'Mr Arnab Rath', img: './dummy.jpg', position: 'Thapar School of Liberal Arts & Sciences, Patiala, India' },
             ],
         },
