@@ -53,13 +53,15 @@ const committeeData = {
             members: [
                 { name: 'Prof Rajesh Dikshit', img: './dummy.jpg', position: 'National Institute of Technical Teachers Training and Research, Bhopal, India' },
                 { name: 'Prof Omar Farooq', img: './dummy.jpg', position: 'Aligarh Muslim University, Patiala, India' },
-                { name: 'Dr Mudit Gupta', img: './dummy.jpg', position: 'Saral Diagnostics, Delhi, India' },
+                { name: 'Prof. Kulbir Singh', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
                 { name: 'Prof Sandeep Sharma', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
                 { name: 'Prof Dwarka Nath Rath', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
-                { name: 'Prof Rajashri Khanai', img: './dummy.jpg', position: 'KLE Technological University, Belagavi Campus, India' },
-                { name: 'Dr Karun Verma', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
-                { name: 'Prof. Kulbir Singh', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
                 { name: 'Dr. Sara Chandy', img: './dummy.jpg', position: 'Technical Director, Associated Medical Specialities, Vellore' },
+                { name: 'Dr Karun Verma', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
+                
+                { name: 'Dr Mudit Gupta', img: './dummy.jpg', position: 'Saral Diagnostics, Delhi, India' },
+                
+                { name: 'Prof Rajashri Khanai', img: './dummy.jpg', position: 'KLE Technological University, Belagavi Campus, India' },
             ],
         },
         // {

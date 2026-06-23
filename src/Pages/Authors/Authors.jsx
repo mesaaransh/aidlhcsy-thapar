@@ -328,7 +328,42 @@ export default function Authors() {
                         <p className="steps-note"><FontAwesomeIcon icon={faExclamationTriangle} /> All PDFs must be approved before the deadline.</p>
                     </Section>
 
-                    
+
+
+                    {/* Step 6: Copyright Submission */}
+                    <Section title="6. Copyright Submission" variant="block">
+                        <div className="copyright-deadline">
+                            <FontAwesomeIcon icon={faCalendarAlt} />
+                            <span>Deadline: <strong>15 November 2026</strong></span>
+                        </div>
+
+                        <p>After PDF approval:</p>
+                        <div className="numbered-steps">
+                            <div className="numbered-step">
+                                <span className="step-number">1</span>
+                                <p>Select the <strong>"Submit Copyright"</strong> option.</p>
+                            </div>
+                            <div className="numbered-step">
+                                <span className="step-number">2</span>
+                                <p>Verify metadata carefully.</p>
+                            </div>
+                            <div className="numbered-step">
+                                <span className="step-number">3</span>
+                                <p>Confirm correctness.</p>
+                            </div>
+                            <div className="numbered-step">
+                                <span className="step-number">4</span>
+                                <p>Complete the electronic copyright form.</p>
+                            </div>
+                        </div>
+
+                        <p className="info-note">You will receive a PDF copy of the completed form for your records.</p>
+
+                        <div className="warning-box">
+                            <FontAwesomeIcon icon={faExclamationTriangle} />
+                            <p><strong>Failure to submit copyright will result in exclusion from publication.</strong></p>
+                        </div>
+                    </Section>
 
                     {/* Additional Notes */}
                     <Section title="Additional Notes" variant="block">
