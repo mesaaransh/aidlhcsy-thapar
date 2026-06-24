@@ -165,7 +165,7 @@
 }
 
 .btn-outline {
-    background: transparent;
+    background: #ffffff;
     color: var(--primary);
     border: 2px solid var(--primary);
     box-shadow: none;
@@ -174,7 +174,7 @@
 .btn-outline:hover {
     background: var(--primary);
     color: #ffffff;
-    box-shadow: var(--shadow-md);
+    box-shadow: var(--shadow-sm);
 }
 
 /* Sponsors */
