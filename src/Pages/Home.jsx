@@ -134,11 +134,11 @@ export default function Home() {
 
                     <Section title="Call for Papers" variant="block">
                         <p>We invite high-quality original research contributions on AI and deep learning for human-centric systems. Submit your work and be part of this global academic dialogue.</p>
-                        <div style={{ marginTop: '1.5rem', display: 'flex', gap: '1rem', flexWrap: 'wrap', alignItems: 'center' }}>
-                            <Link to="/authors" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', backgroundColor: 'var(--primary, #8b1a1a)', color: 'white', padding: '0.75rem 1.5rem', borderRadius: '6px', textDecoration: 'none', fontWeight: '600' }}>
+                        <div className="cfp-actions">
+                            <Link to="https://cmt3.research.microsoft.com/AIDLHCSY2027" className="btn btn-primary">
                                 <FontAwesomeIcon icon={faFileAlt} /> Submit Your Paper <FontAwesomeIcon icon={faArrowRight} />
                             </Link>
-                            <Link to="/authors" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', border: '2px solid var(--primary, #8b1a1a)', color: 'var(--primary, #8b1a1a)', padding: '0.75rem 1.5rem', borderRadius: '6px', textDecoration: 'none', fontWeight: '600' }}>
+                            <Link to="/authors" className="btn btn-outline">
                                 View Author Guidelines
                             </Link>
                         </div>

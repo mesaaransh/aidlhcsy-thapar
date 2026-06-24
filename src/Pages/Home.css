@@ -143,6 +143,40 @@
     letter-spacing: 0.3px;
 }
 
+/* Call for Papers Actions */
+.cfp-actions {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.btn-primary {
+    background: var(--primary);
+    color: #ffffff;
+    border: 2px solid var(--primary);
+}
+
+.btn-primary:hover {
+    background: var(--primary-light);
+    border-color: var(--primary-light);
+    color: #ffffff;
+}
+
+.btn-outline {
+    background: transparent;
+    color: var(--primary);
+    border: 2px solid var(--primary);
+    box-shadow: none;
+}
+
+.btn-outline:hover {
+    background: var(--primary);
+    color: #ffffff;
+    box-shadow: var(--shadow-md);
+}
+
 /* Sponsors */
 .sponsorGrid {
     width: 100%;
