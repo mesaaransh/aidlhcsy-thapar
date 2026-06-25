@@ -1,24 +1,5 @@
 var tracks = [
-  {
-    title: "Foundations of Artificial Intelligence and Knowledge-Driven Systems",
-    sub: "Knowledge-based smart systems, bio-inspired AI, intelligent decision systems.",
-    chairs: [
-      {
-        name: "Dr. Ashwani Sharma",
-        des: "Indian Institute of Technology Ropar, India"
-      }
-    ]
-  },
-  {
-    title: "Computer Vision and Image Intelligence for Human-Centric Applications",
-    sub: "Computer vision, deep learning for image processing, smart system perception.",
-    chairs: [
-      {
-        name: "Dr. Abhinav Dhall",
-        des: "Monash University, Australia"
-      }
-    ]
-  },
+  
   {
     title: "Natural Language Processing and Human-Machine Interaction",
     sub: "Deep learning for text and NLP, conversational AI, multimodal interaction.",
@@ -38,6 +19,26 @@ var tracks = [
         des: "Indian Institute of Information Technology Design and Manufacturing Jabalpur, India"
       },
       
+    ]
+  },
+  {
+    title: "Foundations of Artificial Intelligence and Knowledge-Driven Systems",
+    sub: "Knowledge-based smart systems, bio-inspired AI, intelligent decision systems.",
+    chairs: [
+      {
+        name: "Dr. Ashwani Sharma",
+        des: "Indian Institute of Technology Ropar, India"
+      }
+    ]
+  },
+  {
+    title: "Computer Vision and Image Intelligence for Human-Centric Applications",
+    sub: "Computer vision, deep learning for image processing, smart system perception.",
+    chairs: [
+      {
+        name: "Dr. Abhinav Dhall",
+        des: "Monash University, Australia"
+      }
     ]
   },
   {
