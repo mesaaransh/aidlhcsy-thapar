@@ -62,6 +62,7 @@ const committeeData = {
                 { name: 'Dr Mudit Gupta', img: './dummy.jpg', position: 'Saral Diagnostics, Delhi, India' },
                 
                 { name: 'Prof Rajashri Khanai', img: './dummy.jpg', position: 'KLE Technological University, Belagavi Campus, India' },
+                { name: 'Dr. Saurabh Bhardwaj', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
             ],
         },
         // {

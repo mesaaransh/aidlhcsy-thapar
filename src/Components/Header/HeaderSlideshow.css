@@ -142,4 +142,39 @@
     .heroLogo { height: 70px; }
     .tslasLogo { height: 90px; }
     .heroLogos { column-gap: 15px; }
+
+    .slideshowContainer {
+        height: 85vh;
+    }
+
+    .buttonGroup {
+        gap: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .heroLogo { height: 50px; }
+    .tslasLogo { height: 65px; }
+    .heroLogos { column-gap: 8px; }
+
+    .slideshowContainer {
+        height: 100svh;
+    }
+
+    .buttonGroup {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .buttonGroup .btn {
+        width: 100%;
+        max-width: 260px;
+        justify-content: center;
+    }
+
+    .dtv h3 {
+        font-size: 1.1rem;
+    }
 }

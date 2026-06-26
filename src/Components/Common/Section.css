@@ -46,5 +46,24 @@
     .section-content.committee-grid {
         grid-template-columns: 1fr;
     }
+
+    .common-section {
+        padding: 40px 0;
+    }
+
+    .common-section h3.section-title {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .common-section {
+        padding: 30px 0;
+    }
+
+    .section-content {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
 }
 

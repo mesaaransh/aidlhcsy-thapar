@@ -1,14 +1,28 @@
 import "./Header.css"
-import { Link, useLocation } from "react-router-dom"
+import { Link, useLocation, useNavigate } from "react-router-dom"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCaretDown, faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
+import { faCaretDown, faBars, faTimes, faCalendarDays } from "@fortawesome/free-solid-svg-icons";
 import { useState, useEffect } from "react";
 
 export default function Header() {
   const location = useLocation();
+  const navigate = useNavigate();
   const [mobileOpen, setMobileOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const isHome = location.pathname === "/";
+
+  const scrollToDates = () => {
+    const doScroll = () => {
+      const el = document.getElementById('dates');
+      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    };
+    if (isHome) {
+      doScroll();
+    } else {
+      navigate('/');
+      setTimeout(doScroll, 350);
+    }
+  };
 
   // Close mobile menu on route change
   useEffect(() => {
@@ -31,14 +45,25 @@ export default function Header() {
           <img src="/aidl-logo-nav.png" alt="AIDL-HCSY Logo" className="navLogo" />
         </Link>
 
-        <button
-          className="hamburger"
-          onClick={() => setMobileOpen(!mobileOpen)}
-          aria-label="Toggle navigation menu"
-          aria-expanded={mobileOpen}
-        >
-          <FontAwesomeIcon icon={mobileOpen ? faTimes : faBars} />
-        </button>
+        <div className="navMobileActions">
+          <button
+            className="datesBtn"
+            onClick={scrollToDates}
+            aria-label="Jump to Important Dates"
+          >
+            <FontAwesomeIcon icon={faCalendarDays} />
+            <span>Dates</span>
+          </button>
+
+          <button
+            className="hamburger"
+            onClick={() => setMobileOpen(!mobileOpen)}
+            aria-label="Toggle navigation menu"
+            aria-expanded={mobileOpen}
+          >
+            <FontAwesomeIcon icon={mobileOpen ? faTimes : faBars} />
+          </button>
+        </div>
 
         <ul className={`navLinks ${mobileOpen ? 'navOpen' : ''}`}>
           <li><Link to='/'>Home</Link></li>

@@ -154,6 +154,44 @@
   color: var(--primary);
 }
 
+/* ===== Mobile Action Group ===== */
+.navMobileActions {
+  display: none;
+  align-items: center;
+  gap: 8px;
+}
+
+/* ===== Dates Quick-Access Button (mobile only) ===== */
+.datesBtn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--accent-gold);
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  padding: 7px 14px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+  transition: background 0.2s, transform 0.15s;
+  white-space: nowrap;
+}
+
+.datesBtn:hover,
+.datesBtn:focus {
+  background: var(--accent-gold-dark);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.datesBtn:active {
+  transform: translateY(0);
+}
+
 /* ===== Hamburger ===== */
 .hamburger {
   display: none;
@@ -173,10 +211,30 @@
 }
 
 /* ===== Mobile ===== */
+@media (max-width: 480px) {
+  .navLogo {
+    width: 140px;
+    height: 45px;
+  }
+
+  .datesBtn span {
+    display: none; /* icon only on very small screens */
+  }
+
+  .datesBtn {
+    padding: 8px 10px;
+    font-size: 0.9rem;
+  }
+}
+
 @media (max-width: 968px) {
   .navLogo {
     width: 180px;
     height: 58px;
+  }
+
+  .navMobileActions {
+    display: flex;
   }
 
   .hamburger {

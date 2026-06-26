@@ -190,3 +190,25 @@
     .venueHero { height: 60vh; }
     .venueAddressCard h2 { font-size: 1.5rem; }
 }
+
+@media (max-width: 480px) {
+    .venueAddressCard {
+        padding: 20px 16px;
+        margin: 12px;
+        width: calc(100% - 24px);
+    }
+
+    .addressText {
+        font-size: 0.95rem;
+    }
+
+    .addressLinks {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .carouselBtn {
+        padding: 10px;
+    }
+}

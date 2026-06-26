@@ -40,14 +40,8 @@ export default function Footer() {
 
         <div className="col">
           <nav className="icons" aria-label="Social Media Links">
-            <a href="mailto:act@thpar.edu" aria-label="Email">
+            <a href="mailto:aidlhcsy-ieee@thapar.edu" aria-label="Email">
               <FontAwesomeIcon icon={faEnvelope} />
-            </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-              <FontAwesomeIcon icon={faInstagram} />
-            </a>
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-              <FontAwesomeIcon icon={faFacebookF} />
             </a>
           </nav>
         </div>

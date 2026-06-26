@@ -3,10 +3,9 @@
 }
 
 .keySpeaker p{
-
     margin-top: 1lh;
-    width: 80ch;
-
+    max-width: 80ch;
+    width: 100%;
 }
 
 .keySpeaker .memberImage{
@@ -15,15 +14,36 @@
 
 .speakerdtv{
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
-
     margin-top: 20px;
 }
 
 .speakerdtv div{
     background-color: var(--primary2);
     color: var(--lbg);
-
     padding: 10px 20px;
     border-radius: 5px;
+}
+
+/* ===== Mobile ===== */
+@media (max-width: 768px) {
+    .keySpeaker p {
+        max-width: 100%;
+    }
+
+    .speakerdtv {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .speakerdtv div {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .keySpeaker .memberImage {
+        height: 220px;
+    }
 }

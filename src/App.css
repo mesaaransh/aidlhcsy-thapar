@@ -140,3 +140,20 @@ button.light, .btn.light {
   h1 { font-size: 2.5rem; }
   h2 { font-size: 1.8rem; }
 }
+
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 13px;
+  }
+  .page {
+    padding: 50px 16px;
+  }
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.5rem; }
+  h3 { font-size: 1.25rem; }
+  button, .btn {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    gap: 8px;
+  }
+}
