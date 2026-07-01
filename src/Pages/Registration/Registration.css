@@ -36,7 +36,8 @@
 .submit-paper-wrapper {
     display: flex;
     justify-content: center;
-    margin-bottom: 24px;
+    margin: 0 0 20px;
+    margin-top: -40px;
 }
 
 .submit-paper-btn {

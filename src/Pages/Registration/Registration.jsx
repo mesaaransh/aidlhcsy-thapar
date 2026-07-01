@@ -48,24 +48,25 @@ export default function Registration() {
             />
 
             <div className="page">
+                {/* ═══ Submit Paper Button ═══ */}
+                <div className="submit-paper-wrapper">
+                    <a
+                        href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FAIDLHCSY2027%2FSubmission%2FManage"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="submit-paper-btn"
+                    >
+                        <FontAwesomeIcon icon={faClipboardList} />
+                        Submit Paper
+                    </a>
+                </div>
+
                 {/* ═══ Registration Fee ═══ */}
                 <div className="reg-section">
                     <h2 className="reg-section-title">
                         <FontAwesomeIcon icon={faClipboardList} />
                         Registration Fee
                     </h2>
-
-                    <div className="submit-paper-wrapper">
-                        <a
-                            href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FAIDLHCSY2027%2FSubmission%2FManage"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="submit-paper-btn"
-                        >
-                            <FontAwesomeIcon icon={faClipboardList} />
-                            Submit Paper
-                        </a>
-                    </div>
 
                     <div className="fee-table-wrapper">
                         <table className="fee-table">
