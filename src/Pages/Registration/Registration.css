@@ -32,6 +32,42 @@
     font-size: 1.2rem;
 }
 
+/* ═══ Submit Paper Button ═══ */
+.submit-paper-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.submit-paper-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+    color: #fff;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 14px 32px;
+    border-radius: 50px;
+    text-decoration: none;
+    box-shadow: var(--shadow-md);
+    transition: all 0.2s ease;
+}
+
+.submit-paper-btn svg {
+    font-size: 0.95rem;
+}
+
+.submit-paper-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg, 0 8px 20px rgba(0, 0, 0, 0.15));
+    filter: brightness(1.05);
+}
+
+.submit-paper-btn:active {
+    transform: translateY(0);
+}
+
 /* ═══ Fee Table ═══ */
 .fee-table-wrapper {
     overflow-x: auto;
@@ -249,6 +285,11 @@
 
     .coming-soon-icon {
         align-self: center;
+    }
+
+    .submit-paper-btn {
+        padding: 12px 24px;
+        font-size: 0.9rem;
     }
 }
 

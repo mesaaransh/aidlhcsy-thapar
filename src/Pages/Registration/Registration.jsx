@@ -55,6 +55,18 @@ export default function Registration() {
                         Registration Fee
                     </h2>
 
+                    <div className="submit-paper-wrapper">
+                        <a
+                            href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FAIDLHCSY2027%2FSubmission%2FManage"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="submit-paper-btn"
+                        >
+                            <FontAwesomeIcon icon={faClipboardList} />
+                            Submit Paper
+                        </a>
+                    </div>
+
                     <div className="fee-table-wrapper">
                         <table className="fee-table">
                             <thead>
@@ -86,11 +98,6 @@ export default function Registration() {
                             </tbody>
                         </table>
                     </div>
-
-                    {/* <p className="fee-note">
-                        <FontAwesomeIcon icon={faExclamationTriangle} />
-                        Please note that any paper that is not covered by the registration fee will not be published in the Conference Proceedings.
-                    </p> */}
                 </div>
 
                 {/* ═══ Account Details ═══ */}
