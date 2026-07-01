@@ -19,7 +19,7 @@ const StatCard = ({ icon, number, label }) => (
 );
 
 const MissionCard = ({ text }) => (
-    <div className="missionCard">
+    <div className="missionCar">
         <div className="missionBullet"></div>
         <p>{text}</p>
     </div>
