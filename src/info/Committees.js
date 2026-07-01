@@ -43,9 +43,12 @@ const committeeData = {
             title: 'Steering Committee',
             members: [
                 { name: 'Prof R S Kaler', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
-                { name: 'Dr Meenakshi Sood', img: './dummy.jpg', position: 'National Institute of Technical Teachers Training and Research, Chandigarh, India' },
+                { name: 'Prof Meenakshi Sood', img: './dummy.jpg', position: 'National Institute of Technical Teachers Training and Research, Chandigarh, India' },
                 { name: 'Prof Shalini Batra', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
-                { name: 'Prof Sunil Bhooshan', img: './dummy.jpg', position: 'Mahindra University, Hyderabad, India' },
+                { name: 'Prof Sunil Bhooshan', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
+                { name: 'Dr Shri Ram', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
+                { name: 'Dr Ashutosh Kumar Singh', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
+
             ],
         },
         {
@@ -56,13 +59,16 @@ const committeeData = {
                 { name: 'Prof. Kulbir Singh', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
                 { name: 'Prof Sandeep Sharma', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
                 { name: 'Prof Dwarka Nath Rath', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
+                { name: 'Prof Hem Dutt Joshi', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
+                { name: 'Prof Saurabh Bhardwaj', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
+                { name: 'Prof Rajashri Khanai', img: './dummy.jpg', position: 'KLE Technological University, Belagavi Campus, India' },
+
                 { name: 'Dr. Sara Chandy', img: './dummy.jpg', position: 'Technical Director, Associated Medical Specialities, Vellore' },
                 { name: 'Dr Karun Verma', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
                 
                 { name: 'Dr Mudit Gupta', img: './dummy.jpg', position: 'Saral Diagnostics, Delhi, India' },
                 
-                { name: 'Prof Rajashri Khanai', img: './dummy.jpg', position: 'KLE Technological University, Belagavi Campus, India' },
-                { name: 'Dr. Saurabh Bhardwaj', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
+
             ],
         },
         // {
