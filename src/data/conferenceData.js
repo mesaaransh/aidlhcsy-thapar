@@ -129,17 +129,6 @@ export const keynotes = [
     },
     {
         id: 2,
-        name: "Prof Jiří Hošek",
-        position: "Associate Professor, Department of Telecommunications",
-        affiliation: "Brno University of Technology, Czech Republic",
-        image: "https://i1.rgstatic.net/ii/profile.image/277711231701009-1443222925372_Q512/Jiri-Hosek-2.jpg",
-        bio: "Jiří Hošek is a prolific researcher in wireless communications, having co-authored over 130 papers on 4G/5G cellular systems, the Internet of Things (IoT), and network performance. His work centrally focuses on optimizing Quality of Service (QoS) and Quality of Experience (QoE) for network users. His recent research also leverages AI and machine learning for optimizing emerging technologies, including UAV (drone) communication, mmWave networks, and satellite systems.",
-        sessionDate: "19th January 2027",
-        sessionTime: "9:30 - 11:00 AM",
-        sessionMode: "Online"
-    },
-    {
-        id: 3,
         name: "Prof Nico F. Declercq",
         position: "Professor",
         affiliation: "Georgia Institute of Technology, Atlanta, USA",
@@ -147,6 +136,18 @@ export const keynotes = [
         bio: "Dr. Declercq's lab specializes in experimental and theoretical Nondestructive Evaluation (NDE) for industrial applications, promoting environmental consciousness. The team is known for advanced ultrasonic NDE (0.5 MHz - 2 GHz) using diverse methods like linear/nonlinear acoustics and air-coupled/immersion scans. This research is applied to traditional materials, composites, solar panels, and metamaterials.",
         sessionDate: "20th January 2027",
         sessionTime: "2:30 - 4:00 PM",
+        sessionMode: "Online"
+        
+    },
+    {   
+        id: 3,
+        name: "Prof Jiří Hošek",
+        position: "Associate Professor, Department of Telecommunications",
+        affiliation: "Brno University of Technology, Czech Republic",
+        image: "https://i1.rgstatic.net/ii/profile.image/277711231701009-1443222925372_Q512/Jiri-Hosek-2.jpg",
+        bio: "Jiří Hošek is a prolific researcher in wireless communications, having co-authored over 130 papers on 4G/5G cellular systems, the Internet of Things (IoT), and network performance. His work centrally focuses on optimizing Quality of Service (QoS) and Quality of Experience (QoE) for network users. His recent research also leverages AI and machine learning for optimizing emerging technologies, including UAV (drone) communication, mmWave networks, and satellite systems.",
+        sessionDate: "19th January 2027",
+        sessionTime: "9:30 - 11:00 AM",
         sessionMode: "Online"
     }
 ];
