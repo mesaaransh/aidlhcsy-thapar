@@ -51,7 +51,7 @@ export default function Footer() {
           <br />
           {conferenceInfo.venue}
           <br />
-          <span style={{ fontSize: '0.8rem', opacity: 0.8 }}>Webmaster: Dr. Rahul Upadhyay, Mr. Kunal Gupta,<br /> Varun Gupta &amp; Krrish Sood</span>
+          <span style={{ fontSize: '0.8rem', opacity: 0.8 }}>Webmaster: Rahul Upadhyay, Kunal Gupta,<br /> Varun Gupta &amp; Krrish Sood</span>
         </div>
       </section>
     </footer>
