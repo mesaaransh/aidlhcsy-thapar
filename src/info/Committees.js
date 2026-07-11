@@ -271,6 +271,11 @@ const committeeData = {
                 { name: 'Dr. Rajneesh Sharma', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
                 { name: 'Dr. Anupam Garg', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
                 { name: 'Dr. Sachin Kansal', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
+                { name: 'Dr. Harleen Kaur', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
+                { name: 'Dr. Kirtiman Singh', img: './dummy.jpg', position: 'UPES, Dehradun' },
+                { name: 'Dr. Neeraj Kumar Goswami', img: './dummy.jpg', position: 'Banasthali Vidyapith, Rajasthan' },
+                { name: 'Dr. Gurpreet Kaur', img: './dummy.jpg', position: 'IIIT, Una' },
+                { name: 'Dr. Tanu Wadhera', img: './dummy.jpg', position: 'IIIT, Una' },
             ],
         },
     ]
