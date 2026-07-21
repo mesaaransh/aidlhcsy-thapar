@@ -48,7 +48,6 @@ const committeeData = {
                 { name: 'Prof Sunil Bhooshan', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
                 { name: 'Dr Shri Ram', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
                 { name: 'Dr Ashutosh Kumar Singh', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
-                { name: 'Prof Fernando Díaz de María', img: './dummy.jpg', position: 'Professor, Departamento de Teoría de la Señal y Comunicaciones, Universidad Carlos III de Madrid, Spain' },
 
             ],
         },
@@ -66,13 +65,25 @@ const committeeData = {
 
                 { name: 'Dr. Sara Chandy', img: './dummy.jpg', position: 'Technical Director, Associated Medical Specialities, Vellore' },
                 { name: 'Dr Karun Verma', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
-
+                
                 { name: 'Dr Mudit Gupta', img: './dummy.jpg', position: 'Saral Diagnostics, Delhi, India' },
-
-                { name: 'Rubén Solera Ureña', img: './dummy.jpg', position: 'Instituto de Engenharia de Sistemas e Computadores - Investigação e Desenvolvimento, Lisbon, Portugal' },
+                
 
             ],
         },
+        // {
+        //     title: 'Technical Program Committee (Chairs, Trackwise)',
+        //     members: [
+        //         { name: 'Dr. Ashwani Sharma', img: './dummy.jpg', position: 'Track 1: IIT Ropar, India' },
+        //         { name: 'Dr. Abhinav Dhall', img: './dummy.jpg', position: 'Track 2: Monash University, Australia' },
+        //         { name: 'Dr Mudit Gupta', img: './dummy.jpg', position: 'Track 3: CEO, Saral Diagnostics' },
+        //         { name: 'Prof. Prabin Kumar Padhy', img: './dummy.jpg', position: 'Track 4: PDPM IIITDM, Jabalpur, India' },
+        //         { name: 'Dr. Sachin Kumar Jain', img: './dummy.jpg', position: 'Track 4: PDPM IIITDM, Jabalpur, India' },
+        //         { name: 'Prof. Kulbir Singh', img: './dummy.jpg', position: 'Track 5: TIET, Patiala, India' },
+        //         { name: 'Dr. Vinay Kumar Vakharia', img: './dummy.jpg', position: 'Track 5: PDEU, Gandhinagar, India' },
+        //         { name: 'Prof. Mandeep Singh', img: './dummy.jpg', position: 'Track 6: TIET, Patiala, India' },
+        //     ],
+        // },
     ],
     supporting: [
         {
@@ -105,7 +116,7 @@ const committeeData = {
             members: [
                 { name: 'Ms Nivedita Anand', img: './dummy.jpg', position: 'Thapar School of Liberal Arts & Sciences, Patiala, India' },
                 { name: 'Ms Radhika Kalia', img: './dummy.jpg', position: 'Thapar School of Liberal Arts & Sciences, Patiala, India' },
-
+                
                 { name: 'Ms. Navtika Bedi', img: './dummy.jpg', position: 'Thapar School of Liberal Arts & Sciences, Patiala, India' },
                 { name: 'Mr Arnab Rath', img: './dummy.jpg', position: 'Thapar School of Liberal Arts & Sciences, Patiala, India' },
             ],
@@ -143,6 +154,19 @@ const committeeData = {
         },
     ],
     technical: [
+        // {
+        //     title: 'Track Chairs',
+        //     members: [
+        //         { name: 'Dr. Ashwani Sharma', img: './dummy.jpg', position: 'Indian Institute of Technology Ropar, India' },
+        //         { name: 'Dr. Abhinav Dhall', img: './dummy.jpg', position: 'Monash University, Australia' },
+        //         { name: 'Dr. Mudit Gupta', img: './dummy.jpg', position: 'Saral Diagnostics, India' },
+        //         { name: 'Prof. Prabin Kumar Padhy', img: './dummy.jpg', position: 'Indian Institute of Information Technology Design and Manufacturing Jabalpur, India' },
+        //         { name: 'Dr. Sachin Kumar Jain', img: './dummy.jpg', position: 'Indian Institute of Information Technology Design and Manufacturing Jabalpur, India' },
+        //         { name: 'Prof. Kulbir Singh', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
+        //         { name: 'Dr. Vinay Kumar Vakharia', img: './dummy.jpg', position: 'Pandit Deendayal Energy University, Gandhinagar, India' },
+        //         { name: 'Prof. Mandeep Singh', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
+        //     ],
+        // },
         {
             title: 'Technical Program Committee Members',
             members: [
@@ -237,6 +261,7 @@ const committeeData = {
                 { name: 'Dr. Priyankar Dey', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
                 { name: 'Dr. Manjeet Singh', img: './dummy.jpg', position: 'National Institute of Technology, Jalandhar' },
                 { name: 'Dr. Nitesh Kashyap', img: './dummy.jpg', position: 'National Institute of Technology, Jalandhar' },
+                { name: 'Dr. Bharat Verma', img: './dummy.jpg', position: 'LNM Institute of Information Technology, Jaipur' },
                 { name: 'Dr. Shishir Maheshwari', img: './dummy.jpg', position: 'Motilal Nehru National Institute of Technology Allahabad, India' },
                 { name: 'Dr. Sukwinder Singh', img: './dummy.jpg', position: 'DR B R AMBEDKAR NATIONAL INSTITUTE OF TECHNOLOGY JALANDHAR, PUNJAB (INDIA)' },
                 { name: 'Dr. Anil Arora', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
@@ -246,8 +271,6 @@ const committeeData = {
                 { name: 'Dr. Rajneesh Sharma', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
                 { name: 'Dr. Anupam Garg', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
                 { name: 'Dr. Sachin Kansal', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
-                { name: 'Dr. Bharat Verma', img: './dummy.jpg', position: 'The LNM Institute of Information Technology' },
-                { name: 'Aviral Chharia', img: './dummy.jpg', position: 'Carnegie Mellon University, USA' },
             ],
         },
     ]
