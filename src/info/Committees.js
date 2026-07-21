@@ -245,7 +245,6 @@ const committeeData = {
                 { name: 'Dr Arun Chatterjee', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
                 { name: 'Dr. Rajneesh Sharma', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
                 { name: 'Dr. Anupam Garg', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
-                { name: 'Dr. Sachin Kansal', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
                 { name: 'Dr. Bharat Verma', img: './dummy.jpg', position: 'The LNM Institute of Information Technology' },
                 { name: 'Aviral Chharia', img: './dummy.jpg', position: 'Carnegie Mellon University, USA' },
                 { name: 'Dr. Sachin Kansal', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
