@@ -56,7 +56,7 @@ export default function Keynotes() {
                     <div className='memberInfo'>
                         <h2>Prof Nico F. Declercq</h2>
                         <h4>Professor, Georgia Institute of Technology, Atlanta, USA</h4>
-                        <p>Dr. Declercq's lab specializes in experimental and theoretical Nondestructive Evaluation (NDE) for industrial applications, promoting environmental consciousness. The team is known for advanced ultrasonic NDE (0.5 MHz - 2 GHz) using diverse methods like linear/nonlinear acoustics and air-coupled/immersion scans. This research is applied to traditional materials, composites, solar panels, and metamaterials.</p>
+                        <p>Prof. Nico F. Declercq is a distinguished physicist and mechanical engineer renowned for his contributions to ultrasonics, diffraction theory, acousto-optics, and medical physics. His research combines theoretical and experimental approaches to linear and nonlinear ultrasonics, with applications in conventional materials, composites, solar energy systems, and metamaterials. In recent years, he has been developing Trembling Spacetime Relativity Theory (TSRT), a novel geometric framework that seeks to advance our understanding of the fundamental laws governing nature. His work has significantly contributed to both fundamental science and engineering applications across multiple disciplines.</p>
 
                         <div className="speakerdtv">
                             <div>31st Feburary 2026</div>
