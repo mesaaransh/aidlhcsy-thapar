@@ -19,7 +19,7 @@ export const importantDates = [
     {
         id: 2,
         label: "Peer Review Period Start",
-        date: "16th September 2026",
+        date: "17th September 2026",
         key: "reviewStart"
     },
     {
