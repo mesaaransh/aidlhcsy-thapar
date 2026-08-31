@@ -13,7 +13,7 @@ export const importantDates = [
     {
         id: 1,
         label: "Paper Submission Deadline",
-        date: "30th August 2026",
+        date: "15th September 2026",
         key: "paperSubmission"
     },
     {
