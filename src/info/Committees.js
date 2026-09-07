@@ -37,6 +37,8 @@ const committeeData = {
             title: 'Organizing Secretary',
             members: [
                 { name: 'Dr Shashikant', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
+                { name: 'Dr Tanvi Dovedi', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
+
             ],
         },
         {
