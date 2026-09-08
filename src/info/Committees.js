@@ -91,6 +91,7 @@ const committeeData = {
                 { name: 'Dr Mohd Wajid', img: './dummy.jpg', position: 'Aligarh Muslim University, Aligarh' },
                 { name: 'Dr Vivek Bawa', img: './dummy.jpg', position: 'University of Plymouth, UK' },
                 { name: 'Dr. Chandramohan Dhasarathan', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
+                { name: 'Dr Arun Chatterjee', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
             ],
         },
         {
@@ -115,7 +116,6 @@ const committeeData = {
         {
             title: 'Registration Committee',
             members: [
-                { name: 'Dr Arun Chatterjee', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
                 { name: 'Dr Gaganpreet Kaur', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
                 { name: 'Dr Gitanjali Chandwani', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
                 { name: 'Dr Rajneesh Sharma', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
