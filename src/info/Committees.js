@@ -255,6 +255,10 @@ const committeeData = {
                 { name: 'Dr. Neeraj Kumar Goswami', img: './dummy.jpg', position: 'Banasthali Vidyapith, Rajasthan' },
                 { name: 'Dr. Gurpreet Kaur', img: './dummy.jpg', position: 'IIIT, Una' },
                 { name: 'Dr. Tanu Wadhera', img: './dummy.jpg', position: 'IIIT, Una' },
+                { name: 'Dr. Nisha', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
+                { name: 'Dr. Arashpreet Kaur Sohi', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
+                { name: 'Dr. Jeevan Jot Singh', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
+
             ],
         },
     ]
