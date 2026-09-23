@@ -13,13 +13,13 @@ export const importantDates = [
     {
         id: 1,
         label: "Paper Submission Deadline",
-        date: "15th September 2026",
+        date: "20th October 2026",
         key: "paperSubmission"
     },
     {
         id: 2,
         label: "Peer Review Period Start",
-        date: "17th September 2026",
+        date: "22nd October 2026",
         key: "reviewStart"
     },
     {

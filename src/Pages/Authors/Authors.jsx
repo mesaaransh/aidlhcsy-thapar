@@ -98,8 +98,8 @@ export default function Authors() {
                     <Section title="Important Dates" variant="block">
                         <div className="dates-grid">
                             {[
-                                { label: "Paper Submission Deadline", value: "15th September 2026", highlight: true },
-                                { label: "Peer Review Period Start", value: "17th September 2026" },
+                                { label: "Paper Submission Deadline", value: "20th October 2026", highlight: true },
+                                { label: "Peer Review Period Start", value: "22nd October 2026" },
                                 { label: "Peer Review Period End", value: "10th October 2026" },
                                 { label: "Notification of Acceptance", value: "15th October 2026" },
                                 { label: "Camera Ready Submission", value: "15th November 2026" },
