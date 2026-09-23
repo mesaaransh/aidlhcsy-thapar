@@ -19,19 +19,19 @@ export const importantDates = [
     {
         id: 2,
         label: "Peer Review Period Start",
-        date: "22nd October 2026",
+        date: "1st September 2026",
         key: "reviewStart"
     },
     {
         id: 3,
         label: "Peer Review Period End",
-        date: "10th October 2026",
+        date: "1st November 2026",
         key: "reviewEnd"
     },
     {
         id: 4,
         label: "Notification of Acceptance",
-        date: "15th October 2026",
+        date: "5th November 2026",
         key: "notification"
     },
     {
