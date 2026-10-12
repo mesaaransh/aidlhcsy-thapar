@@ -51,6 +51,7 @@ const committeeData = {
                 { name: 'Dr Shri Ram', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
                 { name: 'Dr Ashutosh Kumar Singh', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
                 { name: 'Prof Fernando Díaz de María', img: './dummy.jpg', position: 'Departamento de Teoría de la Señal y Comunicaciones, Universidad Carlos III de Madrid, Spain' },
+                { name: 'Dr Tarunpreet Bhatia', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
 
             ],
         },
