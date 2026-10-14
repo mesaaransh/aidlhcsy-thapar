@@ -241,6 +241,13 @@ const committeeData = {
                 { name: 'Dr. Tarunpreet Bhatia', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
                 { name: 'Dr. Vinay Kumar', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
                 { name: 'Dr. Vishal Gupta', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
+                { name: 'Dr. Shailza Sharma', img: './dummy.jpg', position: 'Plymouth Marine Laboratory' },
+                { name: 'Dr. Shivani Goswami', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
+                { name: 'Dr. Vivek Yadav', img: './dummy.jpg', position: 'UPES, Dehradhun' },
+                { name: 'Dr. Abhishek Kesarwani', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
+                { name: 'Dr. Tanya Garg', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
+                { name: 'Dr. Mohammed Sayeeduddin Habeeb', img: './dummy.jpg', position: 'King Khalid University, Saudi Arabia' },
+                { name: 'Dr. Amanjot Lamba', img: './dummy.jpg', position: 'Thapar Institute of Engineering and Technology, Patiala, India' },
                 { name: 'Dr. Vishal Pandey', img: './dummy.jpg', position: 'Adani University, India' }
             ],
         },
