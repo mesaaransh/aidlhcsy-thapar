@@ -31,7 +31,7 @@ export const importantDates = [
     {
         id: 4,
         label: "Notification of Acceptance",
-        date: "15th November 2026",
+        date: "20th November 2026",
         key: "notification"
     },
     {

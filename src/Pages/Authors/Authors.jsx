@@ -101,7 +101,7 @@ export default function Authors() {
                                 { label: "Paper Submission Deadline", value: "20th October 2026", highlight: true },
                                 { label: "Peer Review Period Start", value: "1st September 2026" },
                                 { label: "Peer Review Period End", value: "1st November 2026" },
-                                { label: "Notification of Acceptance", value: "15th November 2026" },
+                                { label: "Notification of Acceptance", value: "20th November 2026" },
                                 { label: "Camera Ready Submission", value: "30th November 2026" },
                                 { label: "Registration Deadline (Early Bird)", value: "20th December 2026" },
                                 { label: "Conference Dates", value: "18th – 20th January 2027" },
