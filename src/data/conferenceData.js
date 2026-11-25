@@ -31,13 +31,13 @@ export const importantDates = [
     {
         id: 4,
         label: "Notification of Acceptance",
-        date: "20th November 2026",
+        date: "25th November 2026",
         key: "notification"
     },
     {
         id: 5,
         label: "Camera Ready Submission",
-        date: "30th November 2026",
+        date: "8th December 2026",
         key: "cameraReady"
     },
     {
